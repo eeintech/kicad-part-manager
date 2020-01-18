@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP component_part_number
+D component_description
+K 0603
+F component_datasheet_url
+$ENDCMP
+#

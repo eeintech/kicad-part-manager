@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RC0603FR-07110KL
+D RES SMD 110K OHM 1% 1/10W 0603
+K 0603
+F http://datasheet.octopart.com/RC0603FR-07110KL-Yageo-datasheet-118562.pdf
+$ENDCMP
+#
+$CMP RMCF0402FT100K
+D RES 100K OHM 1% 1/16W 0402
+K 100k 0402
+F https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf
+$ENDCMP
+#
+#End Doc Library
