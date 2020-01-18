@@ -93,8 +93,8 @@ class OctopartAPI(object):
 		return search_results
 
 # MAIN
-if __name__ == '__main__':
-	if len(sys.argv) > 1:
-		OctopartAPI = OctopartAPI()
-		octopart_results = OctopartAPI.SearchPartNumber(sys.argv[1])
-		printDict(octopart_results)
+# if __name__ == '__main__':
+# 	if len(sys.argv) > 1:
+# 		OctopartAPI = OctopartAPI()
+# 		octopart_results = OctopartAPI.SearchPartNumber(sys.argv[1])
+# 		printDict(octopart_results)
