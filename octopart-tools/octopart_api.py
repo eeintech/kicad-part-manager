@@ -14,7 +14,7 @@ class OctopartAPI(object):
 	def __init__(self):
 		self.ApiKey = 'fff72000bb1d7802b853'
 		self.ApprovedSuppliers = ['Digi-Key']#, 'Mouser']
-		self.ResistorSpecs = ['resistance', 'resistance_tolerance', 'power_rating']
+		self.ResistorSpecs = ['resistance', 'resistance_tolerance', 'power_rating', 'case_package']
 		self.WriteFile = True
 
 	def SearchPartNumber(self, PartNumber):
@@ -31,7 +31,7 @@ class OctopartAPI(object):
 
 		# Use Octopart API
 		print("Octopart API Search")
-		search_results = { 'manufacturer' : '', 'partnumber' : '', 'suppliers' : {}, 'description' : '', 'specs' : {}, 'datasheet_url' : '' }
+		search_results = { 'manufacturer' : '', 'partnumber' : '', 'suppliers' : {}, 'description' : '', 'specs' : {}, 'datasheet_url' : '', 'categories' : [] }
 
 		url = 'http://octopart.com/api/v3/parts/match?'
 		url += '&queries=[{"mpn":"' + PartNumber + '"}]'
@@ -39,10 +39,13 @@ class OctopartAPI(object):
 		url += '&include[]=descriptions'
 		url += '&include[]=specs'
 		url += '&include[]=datasheets'
+		url += '&include[]=category_uids'
 		
 		with urllib.request.urlopen(url) as url:
 			data = url.read()
 		response = json.loads(data)
+
+		#printDict(response)
 
 		# Manufacturers
 		for result in response['results']:
@@ -85,6 +88,28 @@ class OctopartAPI(object):
 								break
 								break
 
+				# Save categories uids
+				categories_uids = []
+				for category_uid in item['category_uids']:
+					categories_uids.append(category_uid)
+
+				# Fetch categories names
+				url = 'http://octopart.com/api/v3/categories/get_multi'
+				url += '?apikey=' + self.ApiKey
+				args = []
+				for category_uid in categories_uids:
+					args.append(('uid[]', category_uid))
+				url += "&" + urllib.parse.urlencode(args)
+
+				with urllib.request.urlopen(url) as url:
+					data = url.read()
+				cat_response = json.loads(data)
+
+				# Save categories names
+				for (uid, category) in cat_response.items():
+					search_results['categories'].append(category['name'])
+
+
 		if search_results and self.WriteFile:
 			file = open(filename, 'wb')
 			pickle.dump(search_results, file)
@@ -93,8 +118,8 @@ class OctopartAPI(object):
 		return search_results
 
 # MAIN
-# if __name__ == '__main__':
-# 	if len(sys.argv) > 1:
-# 		OctopartAPI = OctopartAPI()
-# 		octopart_results = OctopartAPI.SearchPartNumber(sys.argv[1])
-# 		printDict(octopart_results)
+if __name__ == '__main__':
+	if len(sys.argv) > 1:
+		OctopartAPI = OctopartAPI()
+		octopart_results = OctopartAPI.SearchPartNumber(sys.argv[1])
+		printDict(octopart_results)

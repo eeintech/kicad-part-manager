@@ -1,0 +1,2263 @@
+{
+    "__class__": "PartsMatchResponse",
+    "msec": 80,
+    "request": {
+        "__class__": "PartsMatchRequest",
+        "exact_only": false,
+        "queries": [
+            {
+                "__class__": "PartsMatchQuery",
+                "brand": null,
+                "limit": 3,
+                "mpn": "RC0603FR-07110KL",
+                "mpn_or_sku": null,
+                "q": "",
+                "reference": null,
+                "seller": null,
+                "sku": null,
+                "start": 0
+            }
+        ]
+    },
+    "results": [
+        {
+            "__class__": "PartsMatchResult",
+            "error": null,
+            "hits": 1,
+            "items": [
+                {
+                    "__class__": "Part",
+                    "brand": {
+                        "__class__": "Brand",
+                        "homepage_url": "http://www.yageo.com/",
+                        "name": "Yageo",
+                        "uid": "7976b87c567daeb1"
+                    },
+                    "category_uids": [
+                        "7542b8484461ae85",
+                        "5c6a91606d4187ad",
+                        "a2f46ffe9b377933"
+                    ],
+                    "datasheets": [
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Digi-Key",
+                                        "uid": "2c3be9310496fffc"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2004-09-22T05:40:10Z",
+                                "last_updated": "2005-04-20T21:20:24Z",
+                                "num_pages": 10,
+                                "size_bytes": 224034
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/RC0603FR-07110KL-Yageo-datasheet-118562.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Future Electronics",
+                                        "uid": "e4032109c4f337c4"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2004-09-22T05:40:10Z",
+                                "last_updated": "2004-09-22T07:01:40Z",
+                                "num_pages": 10,
+                                "size_bytes": 226618
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/RC0603FR-07110KL-Yageo-datasheet-8324193.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Future Electronics",
+                                        "uid": "e4032109c4f337c4"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2009-04-24T02:30:40Z",
+                                "last_updated": "2009-04-24T02:31:26Z",
+                                "num_pages": 9,
+                                "size_bytes": 404273
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/RC0603FR-07110KL-Yageo-datasheet-8328172.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Future Electronics",
+                                        "uid": "e4032109c4f337c4"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2012-06-29T07:57:44Z",
+                                "last_updated": "2012-06-29T07:58:45Z",
+                                "num_pages": 9,
+                                "size_bytes": 502784
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/RC0603FR-07110KL-Yageo-datasheet-12596169.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Future Electronics",
+                                        "uid": "e4032109c4f337c4"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2013-02-05T03:23:09Z",
+                                "last_updated": "2013-02-05T03:23:42Z",
+                                "num_pages": 9,
+                                "size_bytes": 776192
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/RC0603FR-07110KL-Yageo-datasheet-15599030.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "metadata": {
+                                "date_created": "2014-07-14T13:59:48Z",
+                                "last_updated": "2014-07-14T06:00:28Z",
+                                "num_pages": 8,
+                                "size_bytes": 564224
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/RC0603FR-07110KL-Yageo-datasheet-73766026.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Megastar",
+                                        "uid": "3c2df9277b8cefea"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2017-03-07T05:12:30Z",
+                                "last_updated": "2017-03-07T05:13:24Z",
+                                "num_pages": 10,
+                                "size_bytes": 1022976
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/RC0603FR-07110KL-Yageo-datasheet-79472498.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Future Electronics",
+                                        "uid": "e4032109c4f337c4"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2018-12-12T09:25:57Z",
+                                "last_updated": "2018-12-12T09:26:27Z",
+                                "num_pages": 10,
+                                "size_bytes": 1021231
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/RC0603FR-07110KL-Yageo-datasheet-137700087.pdf"
+                        }
+                    ],
+                    "descriptions": [
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Chip One Stop Global",
+                                        "uid": "adcb68c1ed487e0c"
+                                    }
+                                ]
+                            },
+                            "value": "Res Thick Film 1.6 x 0.8 mm 110K Ohm 1% 0.1W(1/10W) 100ppm/ C Molded SMD Paper T/R"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Avnet Europe",
+                                        "uid": "a7c762cdb2197400"
+                                    }
+                                ]
+                            },
+                            "value": "General Purpose Chip Resistor Thick Film 0603 110kOhm 1% Paper T/R"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Megastar",
+                                        "uid": "3c2df9277b8cefea"
+                                    }
+                                ]
+                            },
+                            "value": "0603 1/10watt 1% 110k 100ppm thick film surface mount resistor"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Future Electronics",
+                                        "uid": "e4032109c4f337c4"
+                                    }
+                                ]
+                            },
+                            "value": "RC Series 0603 0.1 W 110 kOhm \u00b11% \u00b1100 ppm/\u00b0C SMT Thick Film Chip Resistor"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Distrelec",
+                                        "uid": "7c7eb9746d2dafb9"
+                                    }
+                                ]
+                            },
+                            "value": "Resistor SMD [YAGEO] RC0603FR-07110KL Resistor SMD"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Digi-Key",
+                                        "uid": "2c3be9310496fffc"
+                                    }
+                                ]
+                            },
+                            "value": "RES SMD 110K OHM 1% 1/10W 0603"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Newark",
+                                        "uid": "d294179ef2900153"
+                                    }
+                                ]
+                            },
+                            "value": "Resistor;Resistance:110Kohm;Resistance Tolerance:\ufffd 1%;Resistor Element Material:Thick Film;Resistor Case Style:0603"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "RS Components",
+                                        "uid": "322cf7263c6ce1eb"
+                                    }
+                                ]
+                            },
+                            "value": "RC0603 SMD resistor 330R 1% 0.1W (Reel)"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Component Electronics",
+                                        "uid": "7c78b9721661afbf"
+                                    }
+                                ]
+                            },
+                            "value": "RES SMT 110K 1% 0603 TAPE"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Rutronik",
+                                        "uid": "890c4c06ea5b5acb"
+                                    }
+                                ]
+                            },
+                            "value": "RC0603 110K 1% 0,1W TK100"
+                        }
+                    ],
+                    "manufacturer": {
+                        "__class__": "Manufacturer",
+                        "homepage_url": "http://www.yageo.com/",
+                        "name": "Yageo",
+                        "uid": "351ff0151e14e6d8"
+                    },
+                    "mpn": "RC0603FR-07110KL",
+                    "octopart_url": "https://octopart.com/rc0603fr-07110kl-yageo-1180242",
+                    "offers": [
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "459_311-110KHRCT-ND",
+                            "eligible_region": "",
+                            "factory_lead_days": 231,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 1414191,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-16T20:39:22Z",
+                            "moq": 1,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": "Cut Tape",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.10000"
+                                    ],
+                                    [
+                                        10,
+                                        "0.02300"
+                                    ],
+                                    [
+                                        100,
+                                        "0.00940"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.00421"
+                                    ],
+                                    [
+                                        2500,
+                                        "0.00366"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0a3b25b&sid=459&ppid=1180242&vpid=1096067&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.digikey.com",
+                                "id": "459",
+                                "name": "Digi-Key",
+                                "uid": "2c3be9310496fffc"
+                            },
+                            "sku": "311-110KHRCT-ND"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "459_311-110KHRDKR-ND",
+                            "eligible_region": "",
+                            "factory_lead_days": 231,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 1414191,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-16T20:39:22Z",
+                            "moq": 1,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": "Custom Reel",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.10000"
+                                    ],
+                                    [
+                                        10,
+                                        "0.02300"
+                                    ],
+                                    [
+                                        100,
+                                        "0.00940"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.00421"
+                                    ],
+                                    [
+                                        2500,
+                                        "0.00366"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=040f01b&sid=459&ppid=1180242&vpid=1802259&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.digikey.com",
+                                "id": "459",
+                                "name": "Digi-Key",
+                                "uid": "2c3be9310496fffc"
+                            },
+                            "sku": "311-110KHRDKR-ND"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "459_311-110KHRTR-ND",
+                            "eligible_region": "",
+                            "factory_lead_days": 231,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 1414191,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-16T20:39:22Z",
+                            "moq": 5000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": "Tape & Reel",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        5000,
+                                        "0.00274"
+                                    ],
+                                    [
+                                        10000,
+                                        "0.00238"
+                                    ],
+                                    [
+                                        25000,
+                                        "0.00209"
+                                    ],
+                                    [
+                                        50000,
+                                        "0.00192"
+                                    ],
+                                    [
+                                        125000,
+                                        "0.00188"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=013df65&sid=459&ppid=1180242&vpid=1169262&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.digikey.com",
+                                "id": "459",
+                                "name": "Digi-Key",
+                                "uid": "2c3be9310496fffc"
+                            },
+                            "sku": "311-110KHRTR-ND"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2454_RC0603FR-07110KL-CUTT",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 335000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-19T02:02:13Z",
+                            "moq": 1,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 1,
+                            "packaging": "Cut Tape",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.09800"
+                                    ],
+                                    [
+                                        250,
+                                        "0.00950"
+                                    ],
+                                    [
+                                        750,
+                                        "0.00610"
+                                    ],
+                                    [
+                                        1500,
+                                        "0.00450"
+                                    ],
+                                    [
+                                        2500,
+                                        "0.00370"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=006e850&sid=2454&ppid=1180242&vpid=415726782&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "CA",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://futureelectronics.com",
+                                "id": "2454",
+                                "name": "Future Electronics",
+                                "uid": "e4032109c4f337c4"
+                            },
+                            "sku": "RC0603FR-07110KL-CUTT"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2454_RC0603FR-07110KL-REEL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 335000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-19T02:02:13Z",
+                            "moq": 5000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 5000,
+                            "packaging": "Tape & Reel",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        5000,
+                                        "0.00200"
+                                    ],
+                                    [
+                                        25000,
+                                        "0.00190"
+                                    ],
+                                    [
+                                        100000,
+                                        "0.00190"
+                                    ],
+                                    [
+                                        250000,
+                                        "0.00190"
+                                    ],
+                                    [
+                                        625000,
+                                        "0.00190"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=04eb668&sid=2454&ppid=1180242&vpid=415726785&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "CA",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://futureelectronics.com",
+                                "id": "2454",
+                                "name": "Future Electronics",
+                                "uid": "e4032109c4f337c4"
+                            },
+                            "sku": "RC0603FR-07110KL-REEL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {
+                                "item_id": "V36:1790_07084369",
+                                "source_code": "ACNA"
+                            },
+                            "_naive_id": "1106_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 2935000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-17T11:37:46Z",
+                            "moq": 5000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 5000,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        5000,
+                                        "0.00260"
+                                    ],
+                                    [
+                                        10000,
+                                        "0.00230"
+                                    ],
+                                    [
+                                        25000,
+                                        "0.00200"
+                                    ],
+                                    [
+                                        50000,
+                                        "0.00180"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0513e90&sid=1106&ppid=1180242&vpid=486428104&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.arrownac.com/",
+                                "id": "1106",
+                                "name": "Arrow Electronics",
+                                "uid": "9d5b5851b06f4e9c"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2401_603-RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 452864,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-18T00:22:49Z",
+                            "moq": 1,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": "Tape & Reel",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.10000"
+                                    ],
+                                    [
+                                        10,
+                                        "0.01800"
+                                    ],
+                                    [
+                                        100,
+                                        "0.00600"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.00500"
+                                    ],
+                                    [
+                                        5000,
+                                        "0.00300"
+                                    ],
+                                    [
+                                        10000,
+                                        "0.00300"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0310b2d&sid=2401&ppid=1180242&vpid=55215447&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.mouser.com",
+                                "id": "2401",
+                                "name": "Mouser",
+                                "uid": "a5e060ea85e77627"
+                            },
+                            "sku": "603-RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2617_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 2935000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-17T11:37:46Z",
+                            "moq": 5000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        5000,
+                                        "0.00260"
+                                    ],
+                                    [
+                                        10000,
+                                        "0.00230"
+                                    ],
+                                    [
+                                        25000,
+                                        "0.00200"
+                                    ],
+                                    [
+                                        50000,
+                                        "0.00180"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0d23153&sid=5489&ppid=1180242&vpid=551955142&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.verical.com",
+                                "id": "2617",
+                                "name": "Verical",
+                                "uid": "504e954473118389"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "4089_C1S900100865928",
+                            "eligible_region": "",
+                            "factory_lead_days": 1,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 19280,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-19T11:21:09Z",
+                            "moq": 200,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": "Cut Tape",
+                            "prices": {
+                                "CNY": [
+                                    [
+                                        200,
+                                        "0.04000"
+                                    ],
+                                    [
+                                        500,
+                                        "0.04000"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.03000"
+                                    ],
+                                    [
+                                        2000,
+                                        "0.02000"
+                                    ],
+                                    [
+                                        5000,
+                                        "0.01000"
+                                    ]
+                                ],
+                                "EUR": [
+                                    [
+                                        200,
+                                        "0.00412"
+                                    ],
+                                    [
+                                        500,
+                                        "0.00405"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.00296"
+                                    ],
+                                    [
+                                        2000,
+                                        "0.00250"
+                                    ],
+                                    [
+                                        5000,
+                                        "0.00114"
+                                    ]
+                                ],
+                                "JPY": [
+                                    [
+                                        200,
+                                        "0.87200"
+                                    ],
+                                    [
+                                        500,
+                                        "0.69600"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.16000"
+                                    ],
+                                    [
+                                        2000,
+                                        "0.13600"
+                                    ],
+                                    [
+                                        5000,
+                                        "0.13500"
+                                    ]
+                                ],
+                                "USD": [
+                                    [
+                                        200,
+                                        "0.00456"
+                                    ],
+                                    [
+                                        500,
+                                        "0.00448"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.00328"
+                                    ],
+                                    [
+                                        2000,
+                                        "0.00277"
+                                    ],
+                                    [
+                                        5000,
+                                        "0.00126"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0320540&sid=13512&ppid=1180242&vpid=281189552&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "JP",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://chip1stop.com/",
+                                "id": "4089",
+                                "name": "Chip One Stop Japan",
+                                "uid": "90be55b4b6214379"
+                            },
+                            "sku": "C1S900100865928"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {
+                                "item_id": "E02:0323_00200761",
+                                "source_code": "EUROPE"
+                            },
+                            "_naive_id": "1106_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 165000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-18T15:42:24Z",
+                            "moq": 5000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 5000,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        5000,
+                                        "0.00250"
+                                    ],
+                                    [
+                                        10000,
+                                        "0.00210"
+                                    ],
+                                    [
+                                        25000,
+                                        "0.00190"
+                                    ],
+                                    [
+                                        50000,
+                                        "0.00170"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=07fabf8&sid=1106&ppid=1180242&vpid=549141733&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.arrownac.com/",
+                                "id": "1106",
+                                "name": "Arrow Electronics",
+                                "uid": "9d5b5851b06f4e9c"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {
+                                "item_id": "V72:2272_07084369",
+                                "source_code": "ACNA"
+                            },
+                            "_naive_id": "1106_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 2739,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-17T11:37:46Z",
+                            "moq": 1,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 1,
+                            "packaging": "Cut Tape",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.09500"
+                                    ],
+                                    [
+                                        10,
+                                        "0.01710"
+                                    ],
+                                    [
+                                        25,
+                                        "0.01680"
+                                    ],
+                                    [
+                                        100,
+                                        "0.00570"
+                                    ],
+                                    [
+                                        250,
+                                        "0.00560"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.00410"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=08237aa&sid=1106&ppid=1180242&vpid=478935068&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.arrownac.com/",
+                                "id": "1106",
+                                "name": "Arrow Electronics",
+                                "uid": "9d5b5851b06f4e9c"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "950_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 15000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-18T10:27:45Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        5000,
+                                        "0.00176"
+                                    ],
+                                    [
+                                        10000,
+                                        "0.00159"
+                                    ],
+                                    [
+                                        25000,
+                                        "0.00150"
+                                    ],
+                                    [
+                                        50000,
+                                        "0.00133"
+                                    ],
+                                    [
+                                        100000,
+                                        "0.00125"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=04c67f7&sid=950&ppid=1180242&vpid=241765087&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "https://www.ttiinc.com",
+                                "id": "950",
+                                "name": "TTI",
+                                "uid": "75dcb0d65f0ca61b"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2617_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 165000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-17T11:37:46Z",
+                            "moq": 15000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        15000,
+                                        "0.00120"
+                                    ],
+                                    [
+                                        40000,
+                                        "0.00100"
+                                    ],
+                                    [
+                                        80000,
+                                        "0.00100"
+                                    ],
+                                    [
+                                        120000,
+                                        "0.00100"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0e5ea5b&sid=5489&ppid=1180242&vpid=582841983&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.verical.com",
+                                "id": "2617",
+                                "name": "Verical",
+                                "uid": "504e954473118389"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2617_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 19280,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-17T11:37:46Z",
+                            "moq": 3515,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        3515,
+                                        "0.00390"
+                                    ],
+                                    [
+                                        5000,
+                                        "0.00180"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0665b5f&sid=5489&ppid=1180242&vpid=551450740&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.verical.com",
+                                "id": "2617",
+                                "name": "Verical",
+                                "uid": "504e954473118389"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2628_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": 112,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-18T02:45:17Z",
+                            "moq": 5000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 5000,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        5000,
+                                        "0.00128"
+                                    ],
+                                    [
+                                        10000,
+                                        "0.00127"
+                                    ],
+                                    [
+                                        20000,
+                                        "0.00123"
+                                    ],
+                                    [
+                                        30000,
+                                        "0.00120"
+                                    ],
+                                    [
+                                        50000,
+                                        "0.00118"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=03b01e2&sid=5822&ppid=1180242&vpid=536830605&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://avnetexpress.avnet.com",
+                                "id": "2628",
+                                "name": "Avnet",
+                                "uid": "3667f36d1545e5a0"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "7667_WRC37306",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 1850000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-16T03:24:09Z",
+                            "moq": 5000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 5000,
+                            "packaging": null,
+                            "prices": {
+                                "EUR": [
+                                    [
+                                        5000,
+                                        "0.00178"
+                                    ],
+                                    [
+                                        15000,
+                                        "0.00145"
+                                    ],
+                                    [
+                                        25000,
+                                        "0.00139"
+                                    ],
+                                    [
+                                        50000,
+                                        "0.00138"
+                                    ]
+                                ],
+                                "USD": [
+                                    [
+                                        5000,
+                                        "0.00200"
+                                    ],
+                                    [
+                                        15000,
+                                        "0.00160"
+                                    ],
+                                    [
+                                        25000,
+                                        "0.00150"
+                                    ],
+                                    [
+                                        50000,
+                                        "0.00150"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=009adfa&sid=18993&ppid=1180242&vpid=87945154&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "DE",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.rutronik.com",
+                                "id": "7667",
+                                "name": "Rutronik",
+                                "uid": "449e8194700b9759"
+                            },
+                            "sku": "WRC37306"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2402_66R2012_US",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-17T11:37:46Z",
+                            "moq": 5000,
+                            "multipack_quantity": "5000",
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 5000,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.00600"
+                                    ],
+                                    [
+                                        5000,
+                                        "0.00600"
+                                    ],
+                                    [
+                                        10000,
+                                        "0.00400"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=0fa69ba&sid=2402&ppid=1180242&vpid=96901690&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.newark.com",
+                                "id": "2402",
+                                "name": "Newark",
+                                "uid": "d294179ef2900153"
+                            },
+                            "sku": "66R2012"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "5347_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": 154,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 245000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-19T08:05:34Z",
+                            "moq": 5000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 5000,
+                            "packaging": null,
+                            "prices": {
+                                "EUR": [
+                                    [
+                                        5000,
+                                        "0.00126"
+                                    ],
+                                    [
+                                        10000,
+                                        "0.00121"
+                                    ],
+                                    [
+                                        20000,
+                                        "0.00116"
+                                    ],
+                                    [
+                                        30000,
+                                        "0.00111"
+                                    ],
+                                    [
+                                        50000,
+                                        "0.00108"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=099f30d&sid=15544&ppid=1180242&vpid=87551320&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "EU",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://avnetexpress.avnet.com/store/em/EMController?storeId=500201&action=home&region=EMEA&catalogId=500201&langId=-1",
+                                "id": "5347",
+                                "name": "Avnet Europe",
+                                "uid": "9416511ca99347d1"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "11104_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 535000,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-16T03:39:34Z",
+                            "moq": 5000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 5000,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        5000,
+                                        "0.00131"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=00f6b96&sid=27291&ppid=1180242&vpid=409665579&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "CN",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.ameya360.com/",
+                                "id": "11104",
+                                "name": "Ameya360",
+                                "uid": "6c5ca9566e5abf9b"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "12151_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 10000,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-06T14:14:54Z",
+                            "moq": 100,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 5000,
+                            "packaging": "Tape & Reel",
+                            "prices": {
+                                "CAD": [
+                                    [
+                                        100,
+                                        "0.00396"
+                                    ],
+                                    [
+                                        500,
+                                        "0.00330"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.00264"
+                                    ],
+                                    [
+                                        5000,
+                                        "0.00172"
+                                    ],
+                                    [
+                                        10000,
+                                        "0.00165"
+                                    ]
+                                ],
+                                "USD": [
+                                    [
+                                        100,
+                                        "0.00300"
+                                    ],
+                                    [
+                                        500,
+                                        "0.00250"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.00200"
+                                    ],
+                                    [
+                                        5000,
+                                        "0.00130"
+                                    ],
+                                    [
+                                        10000,
+                                        "0.00125"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=05af4b2&sid=28359&ppid=1180242&vpid=511333228&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "CA",
+                                "has_ecommerce": false,
+                                "homepage_url": "http://megastar.com",
+                                "id": "12151",
+                                "name": "Megastar",
+                                "uid": "0de7c8ed0bf6de20"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "12079_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 345000,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-06T21:24:21Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {},
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0624c75&sid=28281&ppid=1180242&vpid=495277839&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": false,
+                                "homepage_url": "http://www.sourceability.com",
+                                "id": "12079",
+                                "name": "Sourceability",
+                                "uid": "9cee59e49aa74f29"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "12362_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 129153,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2019-12-30T05:33:54Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {},
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=027c80a&sid=28587&ppid=1180242&vpid=575764607&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "BG",
+                                "has_ecommerce": false,
+                                "homepage_url": "https://www.hermeses.com",
+                                "id": "12362",
+                                "name": "Hermes Engineering",
+                                "uid": "e8a12dabf18d3b66"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "3561_XSFP00000013921",
+                            "eligible_region": "",
+                            "factory_lead_days": 0,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 270000,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-17T20:21:58Z",
+                            "moq": 100000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 5000,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        100000,
+                                        "0.00140"
+                                    ],
+                                    [
+                                        270000,
+                                        "0.00130"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0fd4c90&sid=11310&ppid=1180242&vpid=596222171&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.nacsemi.com",
+                                "id": "3561",
+                                "name": "NAC Semi",
+                                "uid": "d7281222f3a704ef"
+                            },
+                            "sku": "XSFP00000013921"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "3917_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 5000,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-17T17:23:31Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.07800"
+                                    ],
+                                    [
+                                        1051,
+                                        "0.06240"
+                                    ],
+                                    [
+                                        2101,
+                                        "0.05148"
+                                    ],
+                                    [
+                                        3151,
+                                        "0.04784"
+                                    ],
+                                    [
+                                        4201,
+                                        "0.04264"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0869878&sid=13062&ppid=1180242&vpid=588006818&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://rcfreelance.com/",
+                                "id": "3917",
+                                "name": "Freelance Electronics",
+                                "uid": "a1fc64f687d7723b"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2412_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 4905,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-18T11:20:55Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.01350"
+                                    ],
+                                    [
+                                        371,
+                                        "0.00900"
+                                    ],
+                                    [
+                                        2223,
+                                        "0.00450"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0b13bae&sid=2412&ppid=1180242&vpid=39538909&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.questcomp.com",
+                                "id": "2412",
+                                "name": "Quest",
+                                "uid": "b29977939293615e"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "12093_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 19288,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-10T19:05:03Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {},
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=04b1478&sid=28295&ppid=1180242&vpid=495403208&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.semisourceinc.com/",
+                                "id": "12093",
+                                "name": "Semi Source",
+                                "uid": "59809c8a5fdb8a47"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "10597_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 1569,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-08T00:13:17Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {},
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=01a870d&sid=26773&ppid=1180242&vpid=244102204&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": false,
+                                "homepage_url": "http://class-ic.com",
+                                "id": "10597",
+                                "name": "Classic Components",
+                                "uid": "606aa5606069b3ad"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "10079_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 7607,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2019-12-06T00:07:36Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {},
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=05a22c5&sid=25917&ppid=1180242&vpid=441438185&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": false,
+                                "homepage_url": "http://www.abacuselect.com/",
+                                "id": "10079",
+                                "name": "Abacus Technologies",
+                                "uid": "ab926e98a5ab7855"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "6561_RC0603FR-07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 200,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-13T16:36:07Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.07692"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0754f79&sid=17279&ppid=1180242&vpid=252227647&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "CA",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.componentonline.com",
+                                "id": "6561",
+                                "name": "Component Electronics",
+                                "uid": "bfc17acb8f066c06"
+                            },
+                            "sku": "RC0603FR-07110KL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "8250_RC0603FR07110KL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 10876,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2019-11-19T09:43:30Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {},
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0c370f1&sid=20717&ppid=1180242&vpid=196435401&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": false,
+                                "homepage_url": "http://www.chip-1.com/",
+                                "id": "8250",
+                                "name": "Chip 1 Exchange",
+                                "uid": "aa966f9ca3ca7951"
+                            },
+                            "sku": "RC0603FR07110KL"
+                        }
+                    ],
+                    "redirected_uids": [
+                        "0646ce70bdfed981",
+                        "b7c77ff1d78e6800",
+                        "bc0176658d1163c6",
+                        "e0dd2a78ba8b3f1a"
+                    ],
+                    "specs": {
+                        "case_package": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "0603",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "case_package",
+                                "name": "Case/Package",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "0603"
+                            ]
+                        },
+                        "case_package_si": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "1608",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "case_package_si",
+                                "name": "Case/Package (SI)",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "1608"
+                            ]
+                        },
+                        "lead_free_status": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Future Electronics",
+                                        "uid": "e4032109c4f337c4"
+                                    }
+                                ]
+                            },
+                            "display_value": "Lead Free",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "lead_free_status",
+                                "name": "Lead-Free Status",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "Lead Free"
+                            ]
+                        },
+                        "mounting_style": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "Surface Mount",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "mounting_style",
+                                "name": "Mounting Style",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "Surface Mount"
+                            ]
+                        },
+                        "operating_temperature": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "155 \u00b0C (max)",
+                            "max_value": "155.0",
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "decimal",
+                                "key": "operating_temperature",
+                                "name": "Operating Temperature",
+                                "unit": {
+                                    "__class__": "UnitOfMeasurement",
+                                    "name": "degC",
+                                    "symbol": "\u00b0C"
+                                }
+                            },
+                            "min_value": null,
+                            "value": []
+                        },
+                        "packaging": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "Tape & Reel",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "packaging",
+                                "name": "Packaging",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "Tape & Reel"
+                            ]
+                        },
+                        "power_rating": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Garrett",
+                                        "uid": "207de5770078f3ba"
+                                    }
+                                ]
+                            },
+                            "display_value": "100 mW",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "decimal",
+                                "key": "power_rating",
+                                "name": "Power Rating",
+                                "unit": {
+                                    "__class__": "UnitOfMeasurement",
+                                    "name": "W",
+                                    "symbol": "W"
+                                }
+                            },
+                            "min_value": null,
+                            "value": [
+                                "0.1"
+                            ]
+                        },
+                        "resistance": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "110 k\u03a9",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "decimal",
+                                "key": "resistance",
+                                "name": "Resistance",
+                                "unit": {
+                                    "__class__": "UnitOfMeasurement",
+                                    "name": "ohms",
+                                    "symbol": "\u03a9"
+                                }
+                            },
+                            "min_value": null,
+                            "value": [
+                                "110000.0"
+                            ]
+                        },
+                        "resistance_tolerance": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "\u00b11%",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "resistance_tolerance",
+                                "name": "Resistance Tolerance",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "\u00b11%"
+                            ]
+                        },
+                        "rohs_status": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Garrett",
+                                        "uid": "207de5770078f3ba"
+                                    }
+                                ]
+                            },
+                            "display_value": "Compliant",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "rohs_status",
+                                "name": "RoHS",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "Compliant"
+                            ]
+                        },
+                        "size_height": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "450 \u00b5m",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "decimal",
+                                "key": "size_height",
+                                "name": "Size-Height",
+                                "unit": {
+                                    "__class__": "UnitOfMeasurement",
+                                    "name": "m",
+                                    "symbol": "m"
+                                }
+                            },
+                            "min_value": null,
+                            "value": [
+                                "0.00045"
+                            ]
+                        },
+                        "size_length": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "1.60 mm",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "decimal",
+                                "key": "size_length",
+                                "name": "Size-Length",
+                                "unit": {
+                                    "__class__": "UnitOfMeasurement",
+                                    "name": "m",
+                                    "symbol": "m"
+                                }
+                            },
+                            "min_value": null,
+                            "value": [
+                                "0.0016"
+                            ]
+                        },
+                        "size_width": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "800 \u00b5m",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "decimal",
+                                "key": "size_width",
+                                "name": "Size-Width",
+                                "unit": {
+                                    "__class__": "UnitOfMeasurement",
+                                    "name": "m",
+                                    "symbol": "m"
+                                }
+                            },
+                            "min_value": null,
+                            "value": [
+                                "0.0008"
+                            ]
+                        },
+                        "temperature_coefficient": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "-100 ppm/\u00b0C to 100 ppm/\u00b0C",
+                            "max_value": "100.0",
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "decimal",
+                                "key": "temperature_coefficient",
+                                "name": "Temperature Coefficient",
+                                "unit": {
+                                    "__class__": "UnitOfMeasurement",
+                                    "name": "ppm/degC",
+                                    "symbol": "ppm/\u00b0C"
+                                }
+                            },
+                            "min_value": "-100.0",
+                            "value": []
+                        },
+                        "voltage_rating_dc": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": null
+                            },
+                            "display_value": "50.0 V",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "decimal",
+                                "key": "voltage_rating_dc",
+                                "name": "Voltage Rating (DC)",
+                                "unit": {
+                                    "__class__": "UnitOfMeasurement",
+                                    "name": "V",
+                                    "symbol": "V"
+                                }
+                            },
+                            "min_value": null,
+                            "value": [
+                                "50.0"
+                            ]
+                        }
+                    },
+                    "uid": "65aaacb2429eba6d"
+                }
+            ],
+            "reference": null
+        }
+    ]
+}
