@@ -14,7 +14,7 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0603FR-07110KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 110K OHM 1% 1/10W 0603" 0 -800 60 H I C CNN "Description"
 F9 "110K" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "100mW" 0 -140 50 H I C CNN "Power (Watts)"
 DRAW
 S -120 0 -150 0 0 1 0 N

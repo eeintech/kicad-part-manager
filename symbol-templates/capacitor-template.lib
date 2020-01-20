@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# component_part_number
+#
+DEF component_part_number C 0 0 N N 1 F N
+F0 "C" 0 160 60 H V C CNN
+F1 "component_part_number" 0 -450 60 H I C CNN
+F2 "component_footprint" 0 -1050 60 H I C CNN
+F3 "component_datasheet" 0 -1150 60 H I C CNN
+F4 "component_supplier_name" 0 -550 60 H I C CNN "Supplier"
+F5 "component_supplier_number" 0 -650 60 H I C CNN "Supplier Part Number"
+F6 "component_manufacturer_number" 0 -750 60 H I C CNN "Manufacturer"
+F7 "component_manufacturer_number" 0 -850 60 H I C CNN "Manufacturer Part Number"
+F8 "component_description" 0 -950 60 H I C CNN "Description"
+F9 "component_capacitance_value" 0 -150 50 H V C CNN "Capacitance (Farad)"
+F10 "component_capacitance_tolerance" 450 -150 50 H I C CNN "Tolerance (%)"
+F11 "component_capacitance_voltage" 0 -250 50 H V C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -50 0 -40 0 N
+P 2 0 1 10 -35 75 -35 -75 N
+P 2 0 1 10 35 75 35 -75 N
+P 2 0 1 0 50 0 40 0 N
+P 2 0 1 0 75 0 100 0 N
+X 1 1 -150 0 100 R 50 50 1 1 P
+X 2 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF

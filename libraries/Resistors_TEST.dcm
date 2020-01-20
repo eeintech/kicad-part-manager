@@ -2,7 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP RC0603FR-07110KL
 D RES SMD 110K OHM 1% 1/10W 0603
-K 0603
+K 110K 0603
 F http://datasheet.octopart.com/RC0603FR-07110KL-Yageo-datasheet-118562.pdf
 $ENDCMP
 #

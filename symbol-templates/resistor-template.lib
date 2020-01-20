@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF component_part_number R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "component_part_number" 0 -300 50 H I C CNN
-F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F2 "component_footprint" 0 -900 30 H I C CNN
 F3 "" 0 -950 30 H I C CNN
 F4 "component_supplier_name" 0 -400 60 H I C CNN "Supplier"
 F5 "component_supplier_number" 0 -500 60 H I C CNN "Supplier Part Number"

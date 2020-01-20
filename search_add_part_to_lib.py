@@ -27,10 +27,10 @@ if __name__ == '__main__':
 		component_data = CompLibMngr.GetComponentData(PartNumber)
 		#printDict(component_data)
 
-		add_lib = CompLibMngr.AddComponentToLib(component_data)
+		add_lib = CompLibMngr.AddComponentToLib(component_data, 'libraries/Resistors_TEST.lib', 'symbol-templates/resistor-template.lib')
 		if add_lib:
 			print('Success')
 
-		# del_lib = CompLibMngr.DeleteComponentFromLib(PartNumber)
+		# del_lib = CompLibMngr.DeleteComponentFromLib(PartNumber, 'libraries/Resistors_TEST.lib')
 		# if del_lib:
 		# 	print('Success')

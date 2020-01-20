@@ -2,7 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP component_part_number
 D component_description
-K 0603
+K component_keywords
 F component_datasheet_url
 $ENDCMP
 #

@@ -14,7 +14,7 @@ class OctopartAPI(object):
 	def __init__(self):
 		self.ApiKey = 'fff72000bb1d7802b853'
 		self.ApprovedSuppliers = ['Digi-Key']#, 'Mouser']
-		self.ResistorSpecs = ['resistance', 'resistance_tolerance', 'power_rating', 'case_package']
+		self.Specs = { 'Resistors' : ['resistance', 'resistance_tolerance', 'power_rating', 'case_package'] }
 		self.WriteFile = True
 
 	def SearchPartNumber(self, PartNumber):
@@ -73,12 +73,6 @@ class OctopartAPI(object):
 							break
 							break
 
-				# Save specs
-				for spec in item['specs']:
-					if spec in self.ResistorSpecs:
-						value = item['specs'][spec]['display_value'].replace(' ','').replace('\u03a9','').replace('\u00b1', '').replace('k', 'K')
-						search_results['specs'].update({spec : value})
-
 				# Save datasheet url
 				for datasheet in item['datasheets']:
 					if datasheet['attribution']['sources']:
@@ -109,6 +103,13 @@ class OctopartAPI(object):
 				for (uid, category) in cat_response.items():
 					search_results['categories'].append(category['name'])
 
+				# Save specs
+				for spec in item['specs']:
+					# Resistors
+					if ('Resistors' in search_results['categories']) and (spec in self.Specs['Resistors']):
+						value = item['specs'][spec]['display_value'].replace(' ','').replace('\u03a9','').replace('k', 'K')#.replace('\u00b1', '')
+						search_results['specs'].update({spec : value})
+
 
 		if search_results and self.WriteFile:
 			file = open(filename, 'wb')
@@ -118,8 +119,8 @@ class OctopartAPI(object):
 		return search_results
 
 # MAIN
-if __name__ == '__main__':
-	if len(sys.argv) > 1:
-		OctopartAPI = OctopartAPI()
-		octopart_results = OctopartAPI.SearchPartNumber(sys.argv[1])
-		printDict(octopart_results)
+# if __name__ == '__main__':
+# 	if len(sys.argv) > 1:
+# 		OctopartAPI = OctopartAPI()
+# 		octopart_results = OctopartAPI.SearchPartNumber(sys.argv[1])
+# 		printDict(octopart_results)

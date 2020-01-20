@@ -3,15 +3,19 @@ import sys, os
 import json, pickle
 from schlib import SchLib
 
-# Globals
-search_results_dir = 'search-results/'
-search_results_ext = '.dat'
-
-library_dir = 'libraries/'
-template_dir = 'symbol-templates/'
-
-library_file = library_dir + 'resistor.lib'
-template_file = template_dir + 'resistor_0603.lib'
+# Settings (load from file in the future)
+search_results_settings = {	'directory' : 'search-results/', \
+							'extension' : '.dat' }
+symbol_libraries_directory = 'libraries/'
+symbol_libraries_paths = {	'Resistors' : symbol_libraries_directory + 'Resistors_TEST.lib', \
+							'Capacitors' : symbol_libraries_directory + 'Capacitors_TEST.lib' }
+symbol_templates_directory = 'symbol-templates/'
+symbol_templates_paths = {	'Resistors' : symbol_templates_directory + 'resistor-template.lib', \
+							'Capacitors' : symbol_templates_directory + 'capacitor-template.lib' }
+footprint_lookup_table = {	'Resistors' : {	'0402' : 'Resistors:R0402', \
+											'0603' : 'Resistors:R0603' }, \
+							'Capacitors' : {	'0402' : 'Capacitors:C0402', \
+												'0603' : 'Capacitors:C0603' } }
 
 def printDict(dictionary):
 	print(json.dumps(dictionary, indent = 4, sort_keys = True))
@@ -21,7 +25,7 @@ class ComponentLibManager(object):
 		self.version = 'kicadschlib-0.1'
 
 	def GetComponentData(self, ComponentName):
-		filename = search_results_dir + ComponentName + search_results_ext
+		filename = search_results_settings['directory'] + ComponentName + search_results_settings['extension']
 
 		# Check if file exists
 		if not os.path.isfile(filename):
@@ -35,12 +39,12 @@ class ComponentLibManager(object):
 
 		return component_data
 
-	def AddComponentToLib(self, ComponentData, FileLib = library_file, Template = template_file):
-		if not os.path.isfile(FileLib):
+	def AddComponentToLib(self, ComponentData, LibraryPath, TemplatePath):
+		if not os.path.isfile(LibraryPath):
 			print('Check library file path and name')
 			return False
 
-		schlib = SchLib(FileLib)
+		schlib = SchLib(LibraryPath)
 		print('Number of parts in library:', schlib.getComponentCount())
 
 		# Check if part already in library
@@ -49,11 +53,14 @@ class ComponentLibManager(object):
 				print('Component already in library')
 				return False
 
-		templatelib = SchLib(Template)
+		templatelib = SchLib(TemplatePath)
 		# Load new component
 		if templatelib.getComponentCount() == 1:
 			for component in templatelib.components:
 				new_component = component
+		else:
+			print('Found more than 1 component template in template file, aborting')
+			return False
 
 		# Update comment, name and definition
 		new_component.comments[1] = '# ' + ComponentData['partnumber'] + '\n'
@@ -64,6 +71,8 @@ class ComponentLibManager(object):
 		#printDict(new_component.documentation)
 		new_component.documentation['description'] = ComponentData['description']
 		new_component.documentation['datasheet'] = ComponentData['datasheet_url']
+		new_component.documentation['keywords'] = ComponentData['specs']['resistance'] + ' ' + ComponentData['specs']['case_package']
+		#print(new_component.documentation['keywords'])
 
 		# Update fields
 		for field_idx in range(len(new_component.fields)):
@@ -71,6 +80,23 @@ class ComponentLibManager(object):
 				#print(field['name'])
 				if 'component_part_number' in new_component.fields[field_idx]['name']:
 					new_component.fields[field_idx]['name'] = ComponentData['partnumber']
+				elif 'component_footprint' in new_component.fields[field_idx]['name']:
+					# Look-up matching footprint
+					# Find category
+					category = None
+					if 'Resistors' in ComponentData['categories']:
+						category = 'Resistors'
+					elif 'Capacitors' in ComponentData['categories']:
+						category = 'Capacitors'
+
+					if category:
+						package = ComponentData['specs']['case_package']
+						footprint = footprint_lookup_table[category][package]
+					else:
+						# No category match, use default footprint
+						footprint = 'REPLACE_WITH_FOOTPRINT'
+
+					new_component.fields[field_idx]['name'] = footprint
 				elif 'component_supplier_name' in new_component.fields[field_idx]['name']:
 					for supplier in ComponentData['suppliers']:
 						new_component.fields[field_idx]['name'] = supplier
@@ -99,12 +125,12 @@ class ComponentLibManager(object):
 
 		return True
 
-	def DeleteComponentFromLib(self, ComponentPartNumber, FileLib = library_file):
-		if not os.path.isfile(FileLib):
+	def DeleteComponentFromLib(self, ComponentPartNumber, LibraryPath):
+		if not os.path.isfile(LibraryPath):
 			print('Check library file path and name')
 			return False
 
-		schlib = SchLib(FileLib)
+		schlib = SchLib(LibraryPath)
 		print('Number of parts in library:', schlib.getComponentCount())
 
 		try:
@@ -123,5 +149,5 @@ class ComponentLibManager(object):
 # 	if ComponentData:
 # 		printDict(ComponentData)
 
-# 		CompLibMngr.AddComponentToLib(ComponentData)
-# 		#CompLibMngr.DeleteComponentFromLib(ComponentData['partnumber'], library_file)
+# 		CompLibMngr.AddComponentToLib(ComponentData, symbol_libraries_paths['Resistors'], symbol_templates_paths['Resistors'])
+# 		#CompLibMngr.DeleteComponentFromLib(ComponentData['partnumber'], symbol_libraries_paths['Resistors'])
