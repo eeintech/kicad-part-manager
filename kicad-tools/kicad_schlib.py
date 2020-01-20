@@ -2,27 +2,16 @@
 import sys, os
 import json, pickle
 from schlib import SchLib
-
-# Settings (load from file in the future)
-search_results_settings = {	'directory' : 'search-results/', \
-							'extension' : '.dat' }
-symbol_libraries_directory = 'libraries/'
-symbol_libraries_paths = {	'Resistors' : symbol_libraries_directory + 'Resistors_TEST.lib', \
-							'Capacitors' : symbol_libraries_directory + 'Capacitors_TEST.lib' }
-symbol_templates_directory = 'symbol-templates/'
-symbol_templates_paths = {	'Resistors' : symbol_templates_directory + 'resistor-template.lib', \
-							'Capacitors' : symbol_templates_directory + 'capacitor-template.lib' }
-footprint_lookup_table = {	'Resistors' : {	'0402' : 'Resistors:R0402', \
-											'0603' : 'Resistors:R0603' }, \
-							'Capacitors' : {	'0402' : 'Capacitors:C0402', \
-												'0603' : 'Capacitors:C0603' } }
-
-def printDict(dictionary):
-	print(json.dumps(dictionary, indent = 4, sort_keys = True))
+sys.path.append('globals')
+from globals import search_results_settings, symbol_libraries_paths, symbol_templates_paths, footprint_lookup_table
+from globals import printDict
 
 class ComponentLibManager(object):
 	def __init__(self):
 		self.version = 'kicadschlib-0.1'
+
+	def LoadSettings(self):
+		print('Settings')
 
 	def GetComponentData(self, ComponentName):
 		filename = search_results_settings['directory'] + ComponentName + search_results_settings['extension']
@@ -39,11 +28,44 @@ class ComponentLibManager(object):
 
 		return component_data
 
-	def AddComponentToLib(self, ComponentData, LibraryPath, TemplatePath):
-		if not os.path.isfile(LibraryPath):
-			print('Check library file path and name')
+	def GetComponentCategory(self, ComponentData):
+		# Load category
+		category = None
+		if 'Resistors' in ComponentData['categories']:
+			category = 'Resistors'
+		elif 'Capacitors' in ComponentData['categories']:
+			category = 'Capacitors'
+
+		return category
+
+	def GetComponentPackage(self, ComponentData):
+		# Load package
+		try:
+			package = ComponentData['specs']['case_package']
+		except:
+			package = None
+
+		return package
+
+	def AddComponentToLib(self, ComponentData):
+		category = self.GetComponentCategory(ComponentData)
+		package = self.GetComponentPackage(ComponentData)
+		# Load Library and Template paths
+		if category:
+			LibraryPath = symbol_libraries_paths[category]
+			TemplatePath = symbol_templates_paths[category]
+			# Check files exist
+			if not os.path.isfile(LibraryPath):
+				print('Issue loading library file (', LibraryPath, ')')
+				return False
+			if not os.path.isfile(TemplatePath):
+				print('Issue loading template file (', TemplatePath, ')')
+				return False
+		else:
+			print('Unkown component category: no matching library and template paths')
 			return False
 
+		# Load library
 		schlib = SchLib(LibraryPath)
 		print('Number of parts in library:', schlib.getComponentCount())
 
@@ -53,6 +75,7 @@ class ComponentLibManager(object):
 				print('Component already in library')
 				return False
 
+		# Load template
 		templatelib = SchLib(TemplatePath)
 		# Load new component
 		if templatelib.getComponentCount() == 1:
@@ -82,15 +105,7 @@ class ComponentLibManager(object):
 					new_component.fields[field_idx]['name'] = ComponentData['partnumber']
 				elif 'component_footprint' in new_component.fields[field_idx]['name']:
 					# Look-up matching footprint
-					# Find category
-					category = None
-					if 'Resistors' in ComponentData['categories']:
-						category = 'Resistors'
-					elif 'Capacitors' in ComponentData['categories']:
-						category = 'Capacitors'
-
-					if category:
-						package = ComponentData['specs']['case_package']
+					if (category != None) & (package != None):
 						footprint = footprint_lookup_table[category][package]
 					else:
 						# No category match, use default footprint
@@ -125,7 +140,19 @@ class ComponentLibManager(object):
 
 		return True
 
-	def DeleteComponentFromLib(self, ComponentPartNumber, LibraryPath):
+	def DeleteComponentFromLib(self, ComponentPartNumber):
+		category = self.GetComponentCategory(ComponentData)
+		# Load Library and Template paths
+		if category:
+			LibraryPath = symbol_libraries_paths[category]
+			# Check file exists
+			if not os.path.isfile(LibraryPath):
+				print('Issue loading library file (', LibraryPath, ')')
+				return False
+		else:
+			print('Unkown component category: no matching library path')
+			return False
+
 		if not os.path.isfile(LibraryPath):
 			print('Check library file path and name')
 			return False
@@ -149,5 +176,5 @@ class ComponentLibManager(object):
 # 	if ComponentData:
 # 		printDict(ComponentData)
 
-# 		CompLibMngr.AddComponentToLib(ComponentData, symbol_libraries_paths['Resistors'], symbol_templates_paths['Resistors'])
-# 		#CompLibMngr.DeleteComponentFromLib(ComponentData['partnumber'], symbol_libraries_paths['Resistors'])
+# 		CompLibMngr.AddComponentToLib(ComponentData)
+# 		#CompLibMngr.DeleteComponentFromLib(ComponentData['partnumber'])

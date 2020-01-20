@@ -1,32 +1,32 @@
 #!/usr/bin/env python
 import os, sys
-import json, urllib.request, pickle
+import urllib.request, pickle
+sys.path.append('globals/')
+from globals import search_results_settings, printDict
 
 # Globals
-search_results_dir = 'search-results/'
-search_results_ext = '.dat'
-
-def printDict(dictionary):
-	print(json.dumps(dictionary, indent = 4, sort_keys = True))
+apikey_path = 'octopart-tools/octopart_api.key'
 
 # OCTOPART API
 class OctopartAPI(object):
-	def __init__(self):
-		self.ApiKey = 'fff72000bb1d7802b853'
+	def __init__(self, KeyFile = apikey_path):
+		with open(KeyFile, 'r') as octo_api_key:
+			self.ApiKey = octo_api_key.readline().replace('\n','')
+			#print(self.ApiKey)
 		self.ApprovedSuppliers = ['Digi-Key']#, 'Mouser']
 		self.Specs = { 'Resistors' : ['resistance', 'resistance_tolerance', 'power_rating', 'case_package'] }
 		self.WriteFile = True
 
 	def SearchPartNumber(self, PartNumber):
 		# Define file name
-		filename = search_results_dir + PartNumber + search_results_ext
+		filename = search_results_settings['directory'] + PartNumber + search_results_settings['extension']
 
 		# Check if search results already exist and return stored data
 		if os.path.isfile(filename):
 			print("Results Found")
 			file = open(filename, 'rb')
 			search_results = pickle.load(file)
-			file.close
+			file.close()
 			return search_results
 
 		# Use Octopart API

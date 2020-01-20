@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 import os, sys, json
+sys.path.append('/home/francois/Desktop/Projects/kicad-part-manager/globals')
+print(sys.path)
+from globals import printDict
 sys.path.append('kicad-tools')
 from kicad_schlib import ComponentLibManager
 sys.path.append('octopart-tools')
 from octopart_api import OctopartAPI
-
-def printDict(dictionary):
-	print(json.dumps(dictionary, indent = 4, sort_keys = True))
 
 if __name__ == '__main__':
 	OctoApi = OctopartAPI()
@@ -27,10 +27,10 @@ if __name__ == '__main__':
 		component_data = CompLibMngr.GetComponentData(PartNumber)
 		#printDict(component_data)
 
-		add_lib = CompLibMngr.AddComponentToLib(component_data, 'libraries/Resistors_TEST.lib', 'symbol-templates/resistor-template.lib')
+		add_lib = CompLibMngr.AddComponentToLib(component_data)
 		if add_lib:
 			print('Success')
 
-		# del_lib = CompLibMngr.DeleteComponentFromLib(PartNumber, 'libraries/Resistors_TEST.lib')
+		# del_lib = CompLibMngr.DeleteComponentFromLib(PartNumber)
 		# if del_lib:
 		# 	print('Success')
