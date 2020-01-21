@@ -1,36 +1,31 @@
 #!/usr/bin/env python
 import os, sys, json
-sys.path.append('/home/francois/Desktop/Projects/kicad-part-manager/globals')
-print(sys.path)
-from globals import printDict
-sys.path.append('kicad-tools')
-from kicad_schlib import ComponentLibManager
-sys.path.append('octopart-tools')
-from octopart_api import OctopartAPI
+sys.path.extend(['globals', 'kicad-tools', 'octopart-tools'])
+import globals, kicad_schlib, octopart_api
 
 if __name__ == '__main__':
-	OctoApi = OctopartAPI()
-	CompLibMngr = ComponentLibManager()
+	OctoApi = octopart_api.OctopartAPI()
+	CompLibMngr = kicad_schlib.ComponentLibManager()
 
 	if not len(sys.argv) > 1:
 		print('Provide part number to search')
 		sys.exit(-1)
 
-	PartNumber = sys.argv[1]
+	part_number = sys.argv[1]
 
 	# Check Octopart
-	octopart_results = OctoApi.SearchPartNumber(PartNumber)
+	octopart_results = OctoApi.SearchPartNumber(part_number)
 	#printDict(octopart_results)
 
 	if octopart_results:
 		# Get data (note: could use octopart_results instead)
-		component_data = CompLibMngr.GetComponentData(PartNumber)
+		component_data = CompLibMngr.GetComponentData(part_number)
 		#printDict(component_data)
 
 		add_lib = CompLibMngr.AddComponentToLib(component_data)
 		if add_lib:
 			print('Success')
 
-		# del_lib = CompLibMngr.DeleteComponentFromLib(PartNumber)
+		# del_lib = CompLibMngr.DeleteComponentFromLib(component_data)
 		# if del_lib:
 		# 	print('Success')

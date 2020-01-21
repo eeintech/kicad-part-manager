@@ -2,10 +2,17 @@
 import sys, os
 import json, pickle
 from schlib import SchLib
-sys.path.append('globals')
-from globals import search_results_settings, symbol_libraries_paths, symbol_templates_paths, footprint_lookup_table
-from globals import printDict
+if 'globals' not in sys.path:
+	# When this file is executed directly
+	sys.path.append('globals')
+	from globals import	search_results_settings, symbol_libraries_paths, symbol_templates_paths, \
+								footprint_lookup_table, printDict
+else:
+	# When this file is executed from application
+	from globals.globals import	search_results_settings, symbol_libraries_paths, symbol_templates_paths, \
+								footprint_lookup_table, printDict
 
+# COMPONENT LIBRARY MANAGER
 class ComponentLibManager(object):
 	def __init__(self):
 		self.version = 'kicadschlib-0.1'
@@ -140,8 +147,9 @@ class ComponentLibManager(object):
 
 		return True
 
-	def DeleteComponentFromLib(self, ComponentPartNumber):
+	def DeleteComponentFromLib(self, ComponentData):
 		category = self.GetComponentCategory(ComponentData)
+		part_number = ComponentData['partnumber']
 		# Load Library and Template paths
 		if category:
 			LibraryPath = symbol_libraries_paths[category]
@@ -161,12 +169,12 @@ class ComponentLibManager(object):
 		print('Number of parts in library:', schlib.getComponentCount())
 
 		try:
-			schlib.removeComponent(ComponentPartNumber)
+			schlib.removeComponent(part_number)
 			schlib.save()
-			print('Component', ComponentPartNumber, 'was removed from the library')
+			print('Component', part_number, 'was removed from the library')
 			return True
 		except:
-			print('Component', ComponentPartNumber, 'not found in library (no delete)')
+			print('Component', part_number, 'not found in library (no delete)')
 			return False
 
 # MAIN
@@ -175,6 +183,5 @@ class ComponentLibManager(object):
 # 	ComponentData = CompLibMngr.GetComponentData('RC0603FR-07110KL')
 # 	if ComponentData:
 # 		printDict(ComponentData)
-
 # 		CompLibMngr.AddComponentToLib(ComponentData)
-# 		#CompLibMngr.DeleteComponentFromLib(ComponentData['partnumber'])
+# 		#CompLibMngr.DeleteComponentFromLib(ComponentData)

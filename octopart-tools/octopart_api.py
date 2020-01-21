@@ -1,10 +1,15 @@
 #!/usr/bin/env python
 import os, sys
 import urllib.request, pickle
-sys.path.append('globals/')
-from globals import search_results_settings, printDict
+if 'globals' not in sys.path:
+	# When this file is executed directly
+	sys.path.append('globals')
+	from globals import search_results_settings, printDict
+else:
+	# When this file is executed from application
+	from globals.globals import search_results_settings, printDict
 
-# Globals
+# Api key file path
 apikey_path = 'octopart-tools/octopart_api.key'
 
 # OCTOPART API
@@ -18,6 +23,7 @@ class OctopartAPI(object):
 		self.WriteFile = True
 
 	def SearchPartNumber(self, PartNumber):
+		global search_results_settings
 		# Define file name
 		filename = search_results_settings['directory'] + PartNumber + search_results_settings['extension']
 
