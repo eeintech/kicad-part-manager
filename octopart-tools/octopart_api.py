@@ -28,16 +28,16 @@ class OctopartAPI(object):
 		# Define file name
 		filename = search_results_settings['directory'] + PartNumber + search_results_settings['extension']
 
-		# Check if search results already exist and return stored data
-		if os.path.isfile(filename):
-			print("Results Found")
+		# Check if search results already exist and return stored data (disabled)
+		'''if os.path.isfile(filename):
+			print("Results found")
 			file = open(filename, 'rb')
 			search_results = pickle.load(file)
 			file.close()
-			return search_results
+			return search_results'''
 
 		# Use Octopart API
-		print("Octopart API Search")
+		print("Octopart API search")
 		search_results = { 	'manufacturer' : '', 'partnumber' : '', 'suppliers' : {}, 'description' : '', \
 							'specs' : {}, 'datasheet_url' : '', 'categories' : [] }
 

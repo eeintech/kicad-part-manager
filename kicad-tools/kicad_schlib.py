@@ -25,7 +25,6 @@ class ComponentLibManager(object):
 
 		# Check if file exists
 		if not os.path.isfile(filename):
-			print('Component search results not found')
 			return None
 
 		# Unpickle component data
@@ -89,7 +88,8 @@ class ComponentLibManager(object):
 
 		# Load library
 		schlib = SchLib(LibraryPath)
-		print('Number of parts in library:', schlib.getComponentCount())
+		library_name = LibraryPath.split('/')[-1]
+		print('Number of parts in library ' + library_name + ': ' + str(schlib.getComponentCount()))
 
 		# Check if part already in library
 		for component in schlib.components:
@@ -172,22 +172,20 @@ class ComponentLibManager(object):
 
 		schlib.addComponent(new_component)
 		schlib.save()
-		print('Component added to Library')
+		print('Component added to library', library_name)
 
 		return True
 
-	def DeleteComponentFromLib(self, ComponentData):
-		category, subcategory = self.GetComponentCategory(ComponentData)
-		part_number = ComponentData['partnumber']
+	def DeleteComponentFromLib(self, PartNumber, Category):
 		# Load Library and Template paths
-		if category:
-			LibraryPath = symbol_libraries_paths[category]
+		if Category:
+			LibraryPath = symbol_libraries_paths[Category]
 			# Check file exists
 			if not os.path.isfile(LibraryPath):
 				print('Issue loading library file (', LibraryPath, ')')
 				return False
 		else:
-			print('Unkown component category: no matching library path')
+			print('Unkown component type: no matching library path')
 			return False
 
 		if not os.path.isfile(LibraryPath):
@@ -195,15 +193,16 @@ class ComponentLibManager(object):
 			return False
 
 		schlib = SchLib(LibraryPath)
-		print('Number of parts in library:', schlib.getComponentCount())
+		library_name = LibraryPath.split('/')[-1]
+		print('Number of parts in library ' + library_name + ': ' + str(schlib.getComponentCount()))
 
 		try:
-			schlib.removeComponent(part_number)
+			schlib.removeComponent(PartNumber)
 			schlib.save()
-			print('Component', part_number, 'was removed from the library')
+			print('Component', PartNumber, 'was removed from library', library_name)
 			return True
 		except:
-			print('Component', part_number, 'not found in library (no delete)')
+			print('Component', PartNumber, 'was not found in library', library_name, '(no delete)')
 			return False
 
 # MAIN
