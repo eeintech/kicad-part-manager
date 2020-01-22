@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C0402C104K8RACTU
+D CAP CER 0.1UF 10V X7R 0402
+K 100nF 10V 0402
+F http://ksim.kemet.com/Plots/SpicePlots.aspx
+$ENDCMP
+#
+$CMP C1608X8R1E104K080AA
+D CAP CER 0.1UF 25V X8R 0603
+K 100nF 25V 0603
+F DATASHEET_NOT_FOUND
+$ENDCMP
+#
+$CMP GRM155R70J105KA12J
+D CAP CER 1UF 6.3V X7R 0402
+K 1uF 6.3V 0402
+F https://ds.murata.co.jp/simsurfing/mlcc.html?partnumbers=%5B%22GRM155R70J105KA12%22%5D&oripartnumbers=%5B%22GRM155R70J105KA12J%22%5D&rgear=jomoqke&rgearinfo=ca
+$ENDCMP
+#
+#End Doc Library

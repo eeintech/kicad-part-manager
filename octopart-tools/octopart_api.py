@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import os, sys
+import os, sys, json
 import urllib.request, pickle
 if 'globals' not in sys.path:
 	# When this file is executed directly
@@ -19,7 +19,8 @@ class OctopartAPI(object):
 			self.ApiKey = octo_api_key.readline().replace('\n','')
 			#print(self.ApiKey)
 		self.ApprovedSuppliers = ['Digi-Key']#, 'Mouser']
-		self.Specs = { 'Resistors' : ['resistance', 'resistance_tolerance', 'power_rating', 'case_package'] }
+		self.Specs = {	'Resistors' : ['resistance', 'resistance_tolerance', 'power_rating', 'case_package'], \
+						'Capacitors' : ['capacitance', 'capacitance_tolerance', 'voltage_rating_dc', 'case_package'] }
 		self.WriteFile = True
 
 	def SearchPartNumber(self, PartNumber):
@@ -37,7 +38,8 @@ class OctopartAPI(object):
 
 		# Use Octopart API
 		print("Octopart API Search")
-		search_results = { 'manufacturer' : '', 'partnumber' : '', 'suppliers' : {}, 'description' : '', 'specs' : {}, 'datasheet_url' : '', 'categories' : [] }
+		search_results = { 	'manufacturer' : '', 'partnumber' : '', 'suppliers' : {}, 'description' : '', \
+							'specs' : {}, 'datasheet_url' : '', 'categories' : [] }
 
 		url = 'http://octopart.com/api/v3/parts/match?'
 		url += '&queries=[{"mpn":"' + PartNumber + '"}]'
@@ -81,12 +83,17 @@ class OctopartAPI(object):
 
 				# Save datasheet url
 				for datasheet in item['datasheets']:
+					# Check that the sources are listed before enumarating them
 					if datasheet['attribution']['sources']:
 						for source in datasheet['attribution']['sources']:
 							if 'Digi-Key' in source['name']:
 								search_results['datasheet_url'] = datasheet['url']
 								break
 								break
+
+				# TEMPORARY - DELETE
+				if search_results['datasheet_url'] == "":
+					search_results['datasheet_url'] = "DATASHEET_NOT_FOUND"
 
 				# Save categories uids
 				categories_uids = []
@@ -115,6 +122,13 @@ class OctopartAPI(object):
 					if ('Resistors' in search_results['categories']) and (spec in self.Specs['Resistors']):
 						value = item['specs'][spec]['display_value'].replace(' ','').replace('\u03a9','').replace('k', 'K')#.replace('\u00b1', '')
 						search_results['specs'].update({spec : value})
+					# Capacitors
+					elif ('Capacitors' in search_results['categories']) and (spec in self.Specs['Capacitors']):
+						if spec == 'case_package':
+							value = item['specs'][spec]['value'][1]
+						else:
+							value = item['specs'][spec]['display_value'].replace(' ','').replace('.0', '')
+						search_results['specs'].update({spec : value})
 
 
 		if search_results and self.WriteFile:
@@ -125,8 +139,8 @@ class OctopartAPI(object):
 		return search_results
 
 # MAIN
-# if __name__ == '__main__':
-# 	if len(sys.argv) > 1:
-# 		OctopartAPI = OctopartAPI()
-# 		octopart_results = OctopartAPI.SearchPartNumber(sys.argv[1])
-# 		printDict(octopart_results)
+if __name__ == '__main__':
+	if len(sys.argv) > 1:
+		OctopartAPI = OctopartAPI()
+		octopart_results = OctopartAPI.SearchPartNumber(sys.argv[1])
+		printDict(octopart_results)

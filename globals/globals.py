@@ -9,7 +9,7 @@ symbol_libraries_paths = {	'Resistors' : symbol_libraries_directory + 'Resistors
 							'Capacitors' : symbol_libraries_directory + 'Capacitors_TEST.lib' }
 symbol_templates_directory = 'symbol-templates/'
 symbol_templates_paths = {	'Resistors' : symbol_templates_directory + 'resistor-template.lib', \
-							'Capacitors' : symbol_templates_directory + 'capacitor-template.lib' }
+							'Capacitors' : { 'Ceramic' : symbol_templates_directory + 'capacitor-mlcc-template.lib' } }
 footprint_lookup_table = {	'Resistors' : {	'0402' : 'Resistors:R0402', \
 											'0603' : 'Resistors:R0603' }, \
 							'Capacitors' : {	'0402' : 'Capacitors:C0402', \

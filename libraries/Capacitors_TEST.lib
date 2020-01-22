@@ -1,0 +1,82 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C0402C104K8RACTU
+#
+DEF C0402C104K8RACTU C 0 0 N N 1 F N
+F0 "C" 0 160 60 H V C CNN
+F1 "C0402C104K8RACTU" 0 -450 60 H I C CNN
+F2 "Capacitors:C0402" 0 -1050 60 H I C CNN
+F3 "" 0 -1150 60 H I C CNN
+F4 "Digikey" 0 -550 60 H I C CNN "Supplier"
+F5 "399-3520-1-ND" 0 -650 60 H I C CNN "Supplier Part Number"
+F6 "KEMET" 0 -750 60 H I C CNN "Manufacturer"
+F7 "C0402C104K8RACTU" 0 -850 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.1UF 10V X7R 0402" 0 -950 60 H I C CNN "Description"
+F9 "100nF" 0 -150 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 200 -150 50 H I C CNN "Tolerance (%)"
+F11 "10V" 0 -250 50 H V C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -50 0 -40 0 N
+P 2 0 1 10 -35 75 -35 -75 N
+P 2 0 1 10 35 75 35 -75 N
+P 2 0 1 0 50 0 40 0 N
+P 2 0 1 0 75 0 100 0 N
+X 1 1 -150 0 100 R 50 50 1 1 P
+X 2 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C1608X8R1E104K080AA
+#
+DEF C1608X8R1E104K080AA C 0 0 N N 1 F N
+F0 "C" 0 160 60 H V C CNN
+F1 "C1608X8R1E104K080AA" 0 -450 60 H I C CNN
+F2 "Capacitors:C0603" 0 -1050 60 H I C CNN
+F3 "" 0 -1150 60 H I C CNN
+F4 "Digi-Key" 0 -550 60 H I C CNN "Supplier"
+F5 "445-2500-1-ND" 0 -650 60 H I C CNN "Supplier Part Number"
+F6 "TDK" 0 -750 60 H I C CNN "Manufacturer"
+F7 "C1608X8R1E104K080AA" 0 -850 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.1UF 25V X8R 0603" 0 -950 60 H I C CNN "Description"
+F9 "100nF" 0 -150 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 300 -150 50 H I C CNN "Tolerance (%)"
+F11 "25V" 0 -250 50 H V C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -50 0 -40 0 N
+P 2 0 1 10 -35 75 -35 -75 N
+P 2 0 1 10 35 75 35 -75 N
+P 2 0 1 0 50 0 40 0 N
+P 2 0 1 0 75 0 100 0 N
+X 1 1 -150 0 100 R 50 50 1 1 P
+X 2 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GRM155R70J105KA12J
+#
+DEF GRM155R70J105KA12J C 0 0 N N 1 F N
+F0 "C" 0 160 60 H V C CNN
+F1 "GRM155R70J105KA12J" 0 -450 60 H I C CNN
+F2 "Capacitors:C0402" 0 -1050 60 H I C CNN
+F3 "" 0 -1150 60 H I C CNN
+F4 "Digikey" 0 -550 60 H I C CNN "Supplier"
+F5 "490-13339-1-ND" 0 -650 60 H I C CNN "Supplier Part Number"
+F6 "Murata Electronics" 0 -750 60 H I C CNN "Manufacturer"
+F7 "GRM155R70J105KA12J" 0 -850 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 1UF 6.3V X7R 0402" 0 -950 60 H I C CNN "Description"
+F9 "1µF" 0 -150 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 200 -150 50 H I C CNN "Tolerance (%)"
+F11 "6.3V" 0 -250 50 H V C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -50 0 -40 0 N
+P 2 0 1 10 -35 75 -35 -75 N
+P 2 0 1 10 35 75 35 -75 N
+P 2 0 1 0 50 0 40 0 N
+P 2 0 1 0 75 0 100 0 N
+X 1 1 -150 0 100 R 50 50 1 1 P
+X 2 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

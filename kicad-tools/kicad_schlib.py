@@ -38,12 +38,15 @@ class ComponentLibManager(object):
 	def GetComponentCategory(self, ComponentData):
 		# Load category
 		category = None
+		subcategory = None
 		if 'Resistors' in ComponentData['categories']:
 			category = 'Resistors'
 		elif 'Capacitors' in ComponentData['categories']:
 			category = 'Capacitors'
+			if 'Ceramic Capacitors' in ComponentData['categories']:
+				subcategory = 'Ceramic'
 
-		return category
+		return category, subcategory
 
 	def GetComponentPackage(self, ComponentData):
 		# Load package
@@ -54,13 +57,25 @@ class ComponentLibManager(object):
 
 		return package
 
+	def GetDocumentationKeywords(self, ComponentData, category):
+		if category == 'Resistors':
+			return ComponentData['specs']['resistance'] + ' ' + ComponentData['specs']['case_package']
+		elif category == 'Capacitors':
+			return 	ComponentData['specs']['capacitance'] + ' ' + ComponentData['specs']['voltage_rating_dc'] \
+					+ ' ' + ComponentData['specs']['case_package']
+		else:
+			return ''
+
 	def AddComponentToLib(self, ComponentData):
-		category = self.GetComponentCategory(ComponentData)
+		category, subcategory = self.GetComponentCategory(ComponentData)
 		package = self.GetComponentPackage(ComponentData)
 		# Load Library and Template paths
 		if category:
 			LibraryPath = symbol_libraries_paths[category]
-			TemplatePath = symbol_templates_paths[category]
+			if subcategory:
+				TemplatePath = symbol_templates_paths[category][subcategory]
+			else:
+				TemplatePath = symbol_templates_paths[category]
 			# Check files exist
 			if not os.path.isfile(LibraryPath):
 				print('Issue loading library file (', LibraryPath, ')')
@@ -101,7 +116,7 @@ class ComponentLibManager(object):
 		#printDict(new_component.documentation)
 		new_component.documentation['description'] = ComponentData['description']
 		new_component.documentation['datasheet'] = ComponentData['datasheet_url']
-		new_component.documentation['keywords'] = ComponentData['specs']['resistance'] + ' ' + ComponentData['specs']['case_package']
+		new_component.documentation['keywords'] = self.GetDocumentationKeywords(ComponentData, category)
 		#print(new_component.documentation['keywords'])
 
 		# Update fields
@@ -119,6 +134,9 @@ class ComponentLibManager(object):
 						footprint = 'REPLACE_WITH_FOOTPRINT'
 
 					new_component.fields[field_idx]['name'] = footprint
+				# Datasheet field is unused (in documentation)
+				# elif 'component_datasheet' in new_component.fields[field_idx]['name']:
+				# 	new_component.fields[field_idx]['name'] = ComponentData['datasheet_url']
 				elif 'component_supplier_name' in new_component.fields[field_idx]['name']:
 					for supplier in ComponentData['suppliers']:
 						new_component.fields[field_idx]['name'] = supplier
@@ -133,12 +151,23 @@ class ComponentLibManager(object):
 					new_component.fields[field_idx]['name'] = ComponentData['partnumber']
 				elif 'component_description' in new_component.fields[field_idx]['name']:
 					new_component.fields[field_idx]['name'] = ComponentData['description']
-				elif 'component_resistance_value' in new_component.fields[field_idx]['name']:
-					new_component.fields[field_idx]['name'] = ComponentData['specs']['resistance']
-				elif 'component_resistance_tolerance' in new_component.fields[field_idx]['name']:
-					new_component.fields[field_idx]['name'] = ComponentData['specs']['resistance_tolerance']
-				elif 'component_resistance_power_rating' in new_component.fields[field_idx]['name']:
-					new_component.fields[field_idx]['name'] = ComponentData['specs']['power_rating']
+				else:
+					if category == 'Resistors':
+						# Resistors specific information
+						if 'component_resistance_value' in new_component.fields[field_idx]['name']:
+							new_component.fields[field_idx]['name'] = ComponentData['specs']['resistance']
+						elif 'component_resistance_tolerance' in new_component.fields[field_idx]['name']:
+							new_component.fields[field_idx]['name'] = ComponentData['specs']['resistance_tolerance']
+						elif 'component_resistance_power_rating' in new_component.fields[field_idx]['name']:
+							new_component.fields[field_idx]['name'] = ComponentData['specs']['power_rating']
+					elif category == 'Capacitors':
+						# Capacitors specific information
+						if 'component_capacitance_value' in new_component.fields[field_idx]['name']:
+							new_component.fields[field_idx]['name'] = ComponentData['specs']['capacitance']
+						elif 'component_capacitance_tolerance' in new_component.fields[field_idx]['name']:
+							new_component.fields[field_idx]['name'] = ComponentData['specs']['capacitance_tolerance']
+						elif 'component_capacitance_voltage' in new_component.fields[field_idx]['name']:
+							new_component.fields[field_idx]['name'] = ComponentData['specs']['voltage_rating_dc']
 
 
 		schlib.addComponent(new_component)
@@ -148,7 +177,7 @@ class ComponentLibManager(object):
 		return True
 
 	def DeleteComponentFromLib(self, ComponentData):
-		category = self.GetComponentCategory(ComponentData)
+		category, subcategory = self.GetComponentCategory(ComponentData)
 		part_number = ComponentData['partnumber']
 		# Load Library and Template paths
 		if category:
@@ -178,10 +207,11 @@ class ComponentLibManager(object):
 			return False
 
 # MAIN
-# if __name__ == '__main__':
-# 	CompLibMngr = ComponentLibManager()
-# 	ComponentData = CompLibMngr.GetComponentData('RC0603FR-07110KL')
-# 	if ComponentData:
-# 		printDict(ComponentData)
-# 		CompLibMngr.AddComponentToLib(ComponentData)
-# 		#CompLibMngr.DeleteComponentFromLib(ComponentData)
+if __name__ == '__main__':
+	if len(sys.argv) > 1:
+		CompLibMngr = ComponentLibManager()
+		ComponentData = CompLibMngr.GetComponentData(sys.argv[1])
+		if ComponentData:
+			printDict(ComponentData)
+			CompLibMngr.AddComponentToLib(ComponentData)
+			#CompLibMngr.DeleteComponentFromLib(ComponentData)

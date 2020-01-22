@@ -1,0 +1,1948 @@
+{
+    "__class__": "PartsMatchResponse",
+    "msec": 191,
+    "request": {
+        "__class__": "PartsMatchRequest",
+        "exact_only": false,
+        "queries": [
+            {
+                "__class__": "PartsMatchQuery",
+                "brand": null,
+                "limit": 3,
+                "mpn": "C1608X8R1E104K080AA",
+                "mpn_or_sku": null,
+                "q": "",
+                "reference": null,
+                "seller": null,
+                "sku": null,
+                "start": 0
+            }
+        ]
+    },
+    "results": [
+        {
+            "__class__": "PartsMatchResult",
+            "error": null,
+            "hits": 1,
+            "items": [
+                {
+                    "__class__": "Part",
+                    "brand": {
+                        "__class__": "Brand",
+                        "homepage_url": "http://www.tdk.com",
+                        "name": "TDK",
+                        "uid": "4d2c8c2662129aeb"
+                    },
+                    "category_uids": [
+                        "7542b8484461ae85",
+                        "f8883582c9a8234f",
+                        "f6473b4dcf9d2d80"
+                    ],
+                    "datasheets": [
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "element14 APAC",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2013-06-14T04:04:08Z",
+                                "last_updated": "2013-06-14T04:04:14Z",
+                                "num_pages": 13,
+                                "size_bytes": 1463169
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/C1608X8R1E104K080AA-TDK-datasheet-21217873.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "element14 APAC",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2015-06-16T11:25:43Z",
+                                "last_updated": "2015-06-16T11:25:43Z",
+                                "num_pages": 14,
+                                "size_bytes": 236810
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/C1608X8R1E104K080AA-TDK-datasheet-43914282.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "element14 APAC",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2012-12-21T21:06:48Z",
+                                "last_updated": "2012-12-21T23:29:19Z",
+                                "num_pages": 55,
+                                "size_bytes": 1623395
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/C1608X8R1E104K080AA-TDK-datasheet-13444418.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Newark",
+                                        "uid": "d294179ef2900153"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2001-07-26T20:58:32Z",
+                                "last_updated": "2010-03-22T20:34:41Z",
+                                "num_pages": 10,
+                                "size_bytes": 77461
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/C1608X8R1E104K080AA-TDK-datasheet-8853022.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Newark",
+                                        "uid": "d294179ef2900153"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2001-07-26T20:58:32Z",
+                                "last_updated": "2011-08-16T23:07:42Z",
+                                "num_pages": 5,
+                                "size_bytes": 53391
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/C1608X8R1E104K080AA-TDK-datasheet-12544634.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Farnell",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2014-01-28T02:34:41Z",
+                                "last_updated": "2014-01-28T02:34:57Z",
+                                "num_pages": 55,
+                                "size_bytes": 1046115
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/C1608X8R1E104K080AA-TDK-datasheet-23766614.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Farnell",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2014-01-12T13:20:27Z",
+                                "last_updated": "2014-01-12T13:20:31Z",
+                                "num_pages": 13,
+                                "size_bytes": 698870
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/C1608X8R1E104K080AA-TDK-datasheet-27205469.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Future Electronics",
+                                        "uid": "e4032109c4f337c4"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2010-10-06T19:21:40Z",
+                                "last_updated": "2010-10-06T19:21:40Z",
+                                "num_pages": 1,
+                                "size_bytes": 294795
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/C1608X8R1E104K080AA-TDK-datasheet-14433597.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Future Electronics",
+                                        "uid": "e4032109c4f337c4"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2015-03-09T07:24:12Z",
+                                "last_updated": "2015-03-09T07:30:26Z",
+                                "num_pages": 55,
+                                "size_bytes": 454938
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/C1608X8R1E104K080AA-TDK-datasheet-41194876.pdf"
+                        },
+                        {
+                            "__class__": "Datasheet",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Newark",
+                                        "uid": "d294179ef2900153"
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "date_created": "2014-12-22T05:27:33Z",
+                                "last_updated": "2014-12-24T02:01:15Z",
+                                "num_pages": 14,
+                                "size_bytes": 230547
+                            },
+                            "mimetype": "application/pdf",
+                            "url": "http://datasheet.octopart.com/C1608X8R1E104K080AA-TDK-EPC-datasheet-38159368.pdf"
+                        }
+                    ],
+                    "descriptions": [
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Sager Electronics",
+                                        "uid": "8ec14bcb9b775d06"
+                                    }
+                                ]
+                            },
+                            "value": "EIA CASE SIZE: 0603, VOLTAGE: 25, CAP VALUE: 100000, TOL: +/-10%, THICKNESS: 0.80 \u00b1 0.10"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Future Electronics",
+                                        "uid": "e4032109c4f337c4"
+                                    }
+                                ]
+                            },
+                            "value": "C Series 0603 0.1 uF 25 V \u00b110% Tolerance X8R Multilayer Ceramic Capacitor"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "RS Components",
+                                        "uid": "322cf7263c6ce1eb"
+                                    }
+                                ]
+                            },
+                            "value": "In a Pack of 50, TDK 0603 (1608M) 100nF Multilayer Ceramic Capacitor MLCC 25V dc \u00b110% SMD C1608X8R1E104K080AA"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Verical",
+                                        "uid": "3c6cf966007befab"
+                                    }
+                                ]
+                            },
+                            "value": "Cap Ceramic 0.1uF 25V X8R 10% Pad SMD 0603 150C T/R"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Avnet Europe",
+                                        "uid": "a7c762cdb2197400"
+                                    }
+                                ]
+                            },
+                            "value": "Cap Ceramic 0.1uF 25V X8R 10% SMD 0603 150\u00b0C T/R"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Newark",
+                                        "uid": "d294179ef2900153"
+                                    }
+                                ]
+                            },
+                            "value": "CAPACITOR CERAMIC, 0.1UF, 25V, X8R, 10%, 0603"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Digi-Key",
+                                        "uid": "2c3be9310496fffc"
+                                    }
+                                ]
+                            },
+                            "value": "CAP CER 0.1UF 25V X8R 0603"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Rutronik",
+                                        "uid": "890c4c06ea5b5acb"
+                                    }
+                                ]
+                            },
+                            "value": "KC 100nF 0603 10% 25V X8R"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "TTI",
+                                        "uid": "75dcb0d65f0ca61b"
+                                    }
+                                ]
+                            },
+                            "value": ".1UF 25V 10% 0603"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "element14 APAC",
+                                        "uid": "cdc808c2c94e1e0f"
+                                    }
+                                ]
+                            },
+                            "value": "Prices include import duty and tax. CAP, 0.1\u00b5F, 25V, 10%, X8R, 0603; Capacitance:0.1\u00b5F; Voltage Rating:25V; Ceramic Capacitor Case:0603 [1608 Metric]; Capacitance Tolerance:\u00b1 10%; Dielectric Characteristic:X8R; Product Range:C Series TDK; Operating Temperature Min:-55\u00b0C; Operating Temperature Max:150\u00b0C; Automotive Qualification Standard:-; MSL:-; SVHC:No SVHC (15-Jan-2018)"
+                        },
+                        {
+                            "__class__": "Description",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Farnell",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "value": "CON. 0.1\u00b5F, 25V, 10%, X8R, 0603; Capacit\u00e0:0.1\u00b5F; Tensione Nominale:25V; Case Condensatore Ceramico:0603 [1608 Metrico]; Tolleranza Capacit\u00e0:\u00b1 10%; Caratteristica Dielettrico:X8R; Gamma Prodotti:C Series TDK; Temperatura di Esercizio Min:-55\u00b0C; Temperatura di Esercizio Max:150\u00b0C; Standard di Qualifica Automotive:-; Livello di Sensibilit\u00e0 all'Umidit\u00e0 (MSL):MSL 1 - Non Limitata; Sostanze Estremamente Preoccupanti (SVHC):No SVHC (15-Jan-2018)"
+                        }
+                    ],
+                    "manufacturer": {
+                        "__class__": "Manufacturer",
+                        "homepage_url": "http://www.tdk.com",
+                        "name": "TDK",
+                        "uid": "9456515cbf684791"
+                    },
+                    "mpn": "C1608X8R1E104K080AA",
+                    "octopart_url": "https://octopart.com/c1608x8r1e104k080aa-tdk-26013612",
+                    "offers": [
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "459_445-2500-1-ND",
+                            "eligible_region": "",
+                            "factory_lead_days": 140,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 390138,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-16T20:39:22Z",
+                            "moq": 1,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": "Cut Tape",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.16000"
+                                    ],
+                                    [
+                                        10,
+                                        "0.11200"
+                                    ],
+                                    [
+                                        100,
+                                        "0.05250"
+                                    ],
+                                    [
+                                        500,
+                                        "0.03684"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.03050"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0b33baf&sid=459&ppid=26013612&vpid=63973387&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.digikey.com",
+                                "id": "459",
+                                "name": "Digi-Key",
+                                "uid": "2c3be9310496fffc"
+                            },
+                            "sku": "445-2500-1-ND"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "459_445-2500-6-ND",
+                            "eligible_region": "",
+                            "factory_lead_days": 140,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 390138,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-16T20:39:22Z",
+                            "moq": 1,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": "Custom Reel",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.16000"
+                                    ],
+                                    [
+                                        10,
+                                        "0.11200"
+                                    ],
+                                    [
+                                        100,
+                                        "0.05250"
+                                    ],
+                                    [
+                                        500,
+                                        "0.03684"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.03050"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0389992&sid=459&ppid=26013612&vpid=63973389&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.digikey.com",
+                                "id": "459",
+                                "name": "Digi-Key",
+                                "uid": "2c3be9310496fffc"
+                            },
+                            "sku": "445-2500-6-ND"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "459_445-2500-2-ND",
+                            "eligible_region": "",
+                            "factory_lead_days": 140,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 390138,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-16T20:39:22Z",
+                            "moq": 4000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": "Tape & Reel",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        4000,
+                                        "0.02258"
+                                    ],
+                                    [
+                                        8000,
+                                        "0.02100"
+                                    ],
+                                    [
+                                        12000,
+                                        "0.01995"
+                                    ],
+                                    [
+                                        28000,
+                                        "0.01890"
+                                    ],
+                                    [
+                                        100000,
+                                        "0.01470"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0b53786&sid=459&ppid=26013612&vpid=63973388&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.digikey.com",
+                                "id": "459",
+                                "name": "Digi-Key",
+                                "uid": "2c3be9310496fffc"
+                            },
+                            "sku": "445-2500-2-ND"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2454_C1608X8R1E104K080AA-CUTT",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 36000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T01:46:38Z",
+                            "moq": 1,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 1,
+                            "packaging": "Cut Tape",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.15700"
+                                    ],
+                                    [
+                                        250,
+                                        "0.04780"
+                                    ],
+                                    [
+                                        500,
+                                        "0.04150"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.03600"
+                                    ],
+                                    [
+                                        2500,
+                                        "0.02990"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0003253&sid=2454&ppid=26013612&vpid=504277150&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "CA",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://futureelectronics.com",
+                                "id": "2454",
+                                "name": "Future Electronics",
+                                "uid": "e4032109c4f337c4"
+                            },
+                            "sku": "C1608X8R1E104K080AA-CUTT"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2454_C1608X8R1E104K080AA-REEL",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 36000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T01:46:38Z",
+                            "moq": 4000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 4000,
+                            "packaging": "Tape & Reel",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        4000,
+                                        "0.01630"
+                                    ],
+                                    [
+                                        12000,
+                                        "0.01450"
+                                    ],
+                                    [
+                                        20000,
+                                        "0.01440"
+                                    ],
+                                    [
+                                        40000,
+                                        "0.01430"
+                                    ],
+                                    [
+                                        80000,
+                                        "0.01420"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=05fc6d7&sid=2454&ppid=26013612&vpid=415582121&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "CA",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://futureelectronics.com",
+                                "id": "2454",
+                                "name": "Future Electronics",
+                                "uid": "e4032109c4f337c4"
+                            },
+                            "sku": "C1608X8R1E104K080AA-REEL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2401_810-C1608X8R1E104K",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 87013,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T03:49:24Z",
+                            "moq": 1,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": "Tape & Reel",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        1,
+                                        "0.15000"
+                                    ],
+                                    [
+                                        10,
+                                        "0.07000"
+                                    ],
+                                    [
+                                        100,
+                                        "0.04600"
+                                    ],
+                                    [
+                                        500,
+                                        "0.03600"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.02900"
+                                    ],
+                                    [
+                                        4000,
+                                        "0.01900"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=07eaa75&sid=2401&ppid=26013612&vpid=66164288&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.mouser.com",
+                                "id": "2401",
+                                "name": "Mouser",
+                                "uid": "a5e060ea85e77627"
+                            },
+                            "sku": "810-C1608X8R1E104K"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "950_C1608X8R1E104K080AA",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 148000,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T07:20:20Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        4000,
+                                        "0.01850"
+                                    ],
+                                    [
+                                        8000,
+                                        "0.01750"
+                                    ],
+                                    [
+                                        12000,
+                                        "0.01660"
+                                    ],
+                                    [
+                                        28000,
+                                        "0.01570"
+                                    ],
+                                    [
+                                        40000,
+                                        "0.01310"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0e72260&sid=950&ppid=26013612&vpid=89020596&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "https://www.ttiinc.com",
+                                "id": "950",
+                                "name": "TTI",
+                                "uid": "75dcb0d65f0ca61b"
+                            },
+                            "sku": "C1608X8R1E104K080AA"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "3261_7882919",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 200,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T01:30:55Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {},
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=01f3f59&sid=10022&ppid=26013612&vpid=114831954&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "GB",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.rs-components.com",
+                                "id": "3261",
+                                "name": "RS Components",
+                                "uid": "fbaa3ea0de71286d"
+                            },
+                            "sku": "7882919"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "950_C1608X8R1E104K080AA.",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 3600,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T07:20:20Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        50,
+                                        "0.10000"
+                                    ],
+                                    [
+                                        100,
+                                        "0.05000"
+                                    ],
+                                    [
+                                        500,
+                                        "0.03240"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.02610"
+                                    ],
+                                    [
+                                        2500,
+                                        "0.02160"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=090c370&sid=950&ppid=26013612&vpid=252219814&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "https://www.ttiinc.com",
+                                "id": "950",
+                                "name": "TTI",
+                                "uid": "75dcb0d65f0ca61b"
+                            },
+                            "sku": "C1608X8R1E104K080AA."
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2628_C1608X8R1E104K080AA",
+                            "eligible_region": "",
+                            "factory_lead_days": 140,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T02:46:35Z",
+                            "moq": 4000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 4000,
+                            "packaging": null,
+                            "prices": {},
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=07c2ef7&sid=5822&ppid=26013612&vpid=64053021&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://avnetexpress.avnet.com",
+                                "id": "2628",
+                                "name": "Avnet",
+                                "uid": "3667f36d1545e5a0"
+                            },
+                            "sku": "C1608X8R1E104K080AA"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "3261_9214447",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T01:30:55Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {},
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=056fcea&sid=10022&ppid=26013612&vpid=267538085&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "GB",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.rs-components.com",
+                                "id": "3261",
+                                "name": "RS Components",
+                                "uid": "fbaa3ea0de71286d"
+                            },
+                            "sku": "9214447"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "3261_7882919P",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T01:30:55Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {},
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=026bf2c&sid=10022&ppid=26013612&vpid=112701520&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "GB",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.rs-components.com",
+                                "id": "3261",
+                                "name": "RS Components",
+                                "uid": "fbaa3ea0de71286d"
+                            },
+                            "sku": "7882919P"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2402_90R8404_US",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T03:54:53Z",
+                            "moq": 4000,
+                            "multipack_quantity": "4000",
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 4000,
+                            "packaging": "Cut Tape",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        4000,
+                                        "0.02900"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=0b890d6&sid=2402&ppid=26013612&vpid=64058950&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.newark.com",
+                                "id": "2402",
+                                "name": "Newark",
+                                "uid": "d294179ef2900153"
+                            },
+                            "sku": "90R8404"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2402_05X9866_US",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T03:54:53Z",
+                            "moq": 10,
+                            "multipack_quantity": "10",
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 10,
+                            "packaging": "Cut Tape",
+                            "prices": {
+                                "USD": [
+                                    [
+                                        10,
+                                        "0.15000"
+                                    ],
+                                    [
+                                        25,
+                                        "0.12800"
+                                    ],
+                                    [
+                                        50,
+                                        "0.08800"
+                                    ],
+                                    [
+                                        100,
+                                        "0.06700"
+                                    ],
+                                    [
+                                        250,
+                                        "0.05200"
+                                    ],
+                                    [
+                                        500,
+                                        "0.04200"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.03500"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=06e4ea4&sid=2402&ppid=26013612&vpid=210382077&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.newark.com",
+                                "id": "2402",
+                                "name": "Newark",
+                                "uid": "d294179ef2900153"
+                            },
+                            "sku": "05X9866"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2402_87R3776_US",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T03:54:53Z",
+                            "moq": 4000,
+                            "multipack_quantity": "4000",
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 4000,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        4000,
+                                        "0.01900"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=0cdd427&sid=2402&ppid=26013612&vpid=76385239&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.newark.com",
+                                "id": "2402",
+                                "name": "Newark",
+                                "uid": "d294179ef2900153"
+                            },
+                            "sku": "87R3776"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "819_2346915_GB",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T02:58:13Z",
+                            "moq": 10,
+                            "multipack_quantity": "1",
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 1,
+                            "packaging": "Cut Tape",
+                            "prices": {
+                                "GBP": [
+                                    [
+                                        10,
+                                        "0.07860"
+                                    ],
+                                    [
+                                        100,
+                                        "0.04630"
+                                    ],
+                                    [
+                                        500,
+                                        "0.02910"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.02460"
+                                    ],
+                                    [
+                                        2000,
+                                        "0.01980"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=0e1ee76&sid=819&ppid=26013612&vpid=139697344&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "GB",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.farnell.com/",
+                                "id": "819",
+                                "name": "Farnell",
+                                "uid": "58989d9272cd8b5f"
+                            },
+                            "sku": "2346915"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "3702_2346915_SG",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-18T14:46:19Z",
+                            "moq": 1,
+                            "multipack_quantity": "1",
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 1,
+                            "packaging": "Cut Tape",
+                            "prices": {
+                                "SGD": [
+                                    [
+                                        1,
+                                        "0.20400"
+                                    ],
+                                    [
+                                        10,
+                                        "0.14500"
+                                    ],
+                                    [
+                                        100,
+                                        "0.06800"
+                                    ],
+                                    [
+                                        500,
+                                        "0.04800"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.04000"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=0766aaf&sid=11744&ppid=26013612&vpid=133117034&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "SG",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.element14.com/",
+                                "id": "3702",
+                                "name": "element14 APAC",
+                                "uid": "7f61ba6b5871aca6"
+                            },
+                            "sku": "2346915"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "3702_2346915RL_SG",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-18T14:46:19Z",
+                            "moq": 150,
+                            "multipack_quantity": "1",
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 1,
+                            "packaging": null,
+                            "prices": {
+                                "SGD": [
+                                    [
+                                        150,
+                                        "0.06800"
+                                    ],
+                                    [
+                                        500,
+                                        "0.04800"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.04000"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=03b38a7&sid=11744&ppid=26013612&vpid=133117035&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "SG",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.element14.com/",
+                                "id": "3702",
+                                "name": "element14 APAC",
+                                "uid": "7f61ba6b5871aca6"
+                            },
+                            "sku": "2346915RL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "819_2346915RL_GB",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T02:58:13Z",
+                            "moq": 150,
+                            "multipack_quantity": "1",
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 1,
+                            "packaging": null,
+                            "prices": {
+                                "GBP": [
+                                    [
+                                        150,
+                                        "0.04630"
+                                    ],
+                                    [
+                                        500,
+                                        "0.02910"
+                                    ],
+                                    [
+                                        1000,
+                                        "0.02460"
+                                    ],
+                                    [
+                                        2000,
+                                        "0.01980"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=04f15c0&sid=819&ppid=26013612&vpid=139697345&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "GB",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.farnell.com/",
+                                "id": "819",
+                                "name": "Farnell",
+                                "uid": "58989d9272cd8b5f"
+                            },
+                            "sku": "2346915RL"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "5347_C1608X8R1E104K080AA",
+                            "eligible_region": "",
+                            "factory_lead_days": 150,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T08:52:48Z",
+                            "moq": 4000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 4000,
+                            "packaging": null,
+                            "prices": {
+                                "EUR": [
+                                    [
+                                        4000,
+                                        "0.01380"
+                                    ],
+                                    [
+                                        8000,
+                                        "0.01366"
+                                    ],
+                                    [
+                                        16000,
+                                        "0.01339"
+                                    ],
+                                    [
+                                        24000,
+                                        "0.01311"
+                                    ],
+                                    [
+                                        40000,
+                                        "0.01283"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=0a4219a&sid=15544&ppid=26013612&vpid=220842579&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "EU",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://avnetexpress.avnet.com/store/em/EMController?storeId=500201&action=home&region=EMEA&catalogId=500201&langId=-1",
+                                "id": "5347",
+                                "name": "Avnet Europe",
+                                "uid": "9416511ca99347d1"
+                            },
+                            "sku": "C1608X8R1E104K080AA"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "819_2522025_GB",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 0,
+                            "is_authorized": true,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T02:58:13Z",
+                            "moq": 4000,
+                            "multipack_quantity": "1",
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 1,
+                            "packaging": "Tape & Reel",
+                            "prices": {
+                                "GBP": [
+                                    [
+                                        4000,
+                                        "0.01570"
+                                    ],
+                                    [
+                                        20000,
+                                        "0.01220"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?c=1&ai=8831&sig=04bdbef&sid=819&ppid=26013612&vpid=254511354&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "GB",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.farnell.com/",
+                                "id": "819",
+                                "name": "Farnell",
+                                "uid": "58989d9272cd8b5f"
+                            },
+                            "sku": "2522025"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "11104_C1608X8R1E104K080AA",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 36000,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-16T03:39:34Z",
+                            "moq": 4000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 4000,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        4000,
+                                        "0.01755"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=061fc80&sid=27291&ppid=26013612&vpid=440017731&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "CN",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.ameya360.com/",
+                                "id": "11104",
+                                "name": "Ameya360",
+                                "uid": "6c5ca9566e5abf9b"
+                            },
+                            "sku": "C1608X8R1E104K080AA"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "12079_C1608X8R1E104K080AA",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 44000,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-06T21:24:21Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {},
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0ec4cb8&sid=28281&ppid=26013612&vpid=540256927&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": false,
+                                "homepage_url": "http://www.sourceability.com",
+                                "id": "12079",
+                                "name": "Sourceability",
+                                "uid": "9cee59e49aa74f29"
+                            },
+                            "sku": "C1608X8R1E104K080AA"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "3561_XSFP00000108089",
+                            "eligible_region": "",
+                            "factory_lead_days": 0,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 28000,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-20T22:16:39Z",
+                            "moq": 8000,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": 4000,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        8000,
+                                        "0.01860"
+                                    ],
+                                    [
+                                        28000,
+                                        "0.01730"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=0bb628a&sid=11310&ppid=26013612&vpid=594231909&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.nacsemi.com",
+                                "id": "3561",
+                                "name": "NAC Semi",
+                                "uid": "d7281222f3a704ef"
+                            },
+                            "sku": "XSFP00000108089"
+                        },
+                        {
+                            "__class__": "PartOffer",
+                            "_custom": {},
+                            "_naive_id": "2412_C1608X8R1E104K080AA",
+                            "eligible_region": "",
+                            "factory_lead_days": null,
+                            "factory_order_multiple": null,
+                            "in_stock_quantity": 3200,
+                            "is_authorized": false,
+                            "is_realtime": false,
+                            "last_updated": "2020-01-21T11:20:15Z",
+                            "moq": null,
+                            "multipack_quantity": null,
+                            "octopart_rfq_url": null,
+                            "on_order_eta": null,
+                            "on_order_quantity": null,
+                            "order_multiple": null,
+                            "packaging": null,
+                            "prices": {
+                                "USD": [
+                                    [
+                                        5,
+                                        "0.20000"
+                                    ],
+                                    [
+                                        26,
+                                        "0.16000"
+                                    ],
+                                    [
+                                        64,
+                                        "0.09000"
+                                    ],
+                                    [
+                                        557,
+                                        "0.06000"
+                                    ]
+                                ]
+                            },
+                            "product_url": "https://octopart.com/click/track?ai=8831&sig=03ddca7&sid=2412&ppid=26013612&vpid=579948976&ct=offers",
+                            "seller": {
+                                "__class__": "Seller",
+                                "display_flag": "US",
+                                "has_ecommerce": true,
+                                "homepage_url": "http://www.questcomp.com",
+                                "id": "2412",
+                                "name": "Quest",
+                                "uid": "b29977939293615e"
+                            },
+                            "sku": "C1608X8R1E104K080AA"
+                        }
+                    ],
+                    "redirected_uids": [
+                        "19b8d11952eac67f",
+                        "b0e27ddb082e6f25",
+                        "f96933978c4c26ae"
+                    ],
+                    "specs": {
+                        "capacitance": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Farnell",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "display_value": "100 nF",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "decimal",
+                                "key": "capacitance",
+                                "name": "Capacitance",
+                                "unit": {
+                                    "__class__": "UnitOfMeasurement",
+                                    "name": "F",
+                                    "symbol": "F"
+                                }
+                            },
+                            "min_value": null,
+                            "value": [
+                                "1e-07"
+                            ]
+                        },
+                        "capacitance_tolerance": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Farnell",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "display_value": "\u00b110%",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "capacitance_tolerance",
+                                "name": "Capacitance Tolerance",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "\u00b110%"
+                            ]
+                        },
+                        "case_package": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Farnell",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "display_value": "1608, 0603",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "case_package",
+                                "name": "Case/Package",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "1608",
+                                "0603"
+                            ]
+                        },
+                        "dielectric_characteristic": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Farnell",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "display_value": "X8R",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "dielectric_characteristic",
+                                "name": "Dielectric Characteristic",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "X8R"
+                            ]
+                        },
+                        "lead_free_status": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Future Electronics",
+                                        "uid": "e4032109c4f337c4"
+                                    }
+                                ]
+                            },
+                            "display_value": "Lead Free",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "lead_free_status",
+                                "name": "Lead-Free Status",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "Lead Free"
+                            ]
+                        },
+                        "mounting_style": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Ciiva",
+                                        "uid": "8c5c4956cfa65f9b"
+                                    }
+                                ]
+                            },
+                            "display_value": "Surface Mount",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "mounting_style",
+                                "name": "Mounting Style",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "Surface Mount"
+                            ]
+                        },
+                        "operating_temperature": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Farnell",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "display_value": "150 \u00b0C (max)",
+                            "max_value": "150.0",
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "decimal",
+                                "key": "operating_temperature",
+                                "name": "Operating Temperature",
+                                "unit": {
+                                    "__class__": "UnitOfMeasurement",
+                                    "name": "degC",
+                                    "symbol": "\u00b0C"
+                                }
+                            },
+                            "min_value": null,
+                            "value": []
+                        },
+                        "packaging": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "element14 APAC",
+                                        "uid": "cdc808c2c94e1e0f"
+                                    }
+                                ]
+                            },
+                            "display_value": "Cut Tape (CT), Tape & Reel (TR)",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "packaging",
+                                "name": "Packaging",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "Cut Tape (CT)",
+                                "Tape & Reel (TR)"
+                            ]
+                        },
+                        "pin_count": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Newark",
+                                        "uid": "d294179ef2900153"
+                                    }
+                                ]
+                            },
+                            "display_value": "2",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "integer",
+                                "key": "pin_count",
+                                "name": "Number of Pins",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "2"
+                            ]
+                        },
+                        "reach_svhc_compliance": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Farnell",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "display_value": "No SVHC",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "reach_svhc_compliance",
+                                "name": "REACH SVHC Compliance",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "No SVHC"
+                            ]
+                        },
+                        "rohs_status": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Farnell",
+                                        "uid": "58989d9272cd8b5f"
+                                    }
+                                ]
+                            },
+                            "display_value": "Compliant",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "string",
+                                "key": "rohs_status",
+                                "name": "RoHS",
+                                "unit": null
+                            },
+                            "min_value": null,
+                            "value": [
+                                "Compliant"
+                            ]
+                        },
+                        "voltage_rating_dc": {
+                            "__class__": "SpecValue",
+                            "attribution": {
+                                "__class__": "Attribution",
+                                "first_acquired": null,
+                                "sources": [
+                                    {
+                                        "__class__": "Source",
+                                        "name": "Newark",
+                                        "uid": "d294179ef2900153"
+                                    }
+                                ]
+                            },
+                            "display_value": "25.0 V",
+                            "max_value": null,
+                            "metadata": {
+                                "__class__": "SpecMetadata",
+                                "datatype": "decimal",
+                                "key": "voltage_rating_dc",
+                                "name": "Voltage Rating (DC)",
+                                "unit": {
+                                    "__class__": "UnitOfMeasurement",
+                                    "name": "V",
+                                    "symbol": "V"
+                                }
+                            },
+                            "min_value": null,
+                            "value": [
+                                "25.0"
+                            ]
+                        }
+                    },
+                    "uid": "51de99589b148e19"
+                }
+            ],
+            "reference": null
+        }
+    ]
+}

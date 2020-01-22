@@ -26,6 +26,7 @@ if __name__ == '__main__':
 		if add_lib:
 			print('Success')
 
+		# DELETE - TESTING ONLY
 		# del_lib = CompLibMngr.DeleteComponentFromLib(component_data)
 		# if del_lib:
 		# 	print('Success')
