@@ -58,5 +58,5 @@ if __name__ == '__main__':
 
 		sys.exit(0)
 	else:
-		print('Missing part number')
+		print('Missing arguments\nTry --help to start')
 		sys.exit(-1)
